@@ -1,0 +1,616 @@
+m255
+K4
+z2
+13
+cModel Technology
+dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+valu_mem_pipeline_reg
+Z0 !s110 1410414838
+!i10b 1
+!s100 >b><EU4g9?BSI4Xn;HN8C3
+I:5YF861RIYMdK8Fj16;T32
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dD:/intern project/new_unpipelined
+w1373396662
+8D:/intern project/new_unpipelined/alu_mem_pipeline_reg.v
+FD:/intern project/new_unpipelined/alu_mem_pipeline_reg.v
+L0 1
+Z3 OP;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1410414838.511000
+!s107 D:/intern project/new_unpipelined/alu_mem_pipeline_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/alu_mem_pipeline_reg.v|
+!s101 -O0
+!i113 1
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+varithematic_logic_unit
+Z5 !s110 1410414836
+!i10b 1
+!s100 n<6m=b3iB;a5fDOPag>YY1
+Ic3m4S;eld21zh;<bLE2Ko3
+R1
+R2
+w1373034339
+8D:/intern project/new_unpipelined/ALU_full1
+FD:/intern project/new_unpipelined/ALU_full1
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414836.201000
+!s107 D:/intern project/new_unpipelined/ALU_full1|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/ALU_full1|
+!s101 -O0
+!i113 1
+R4
+vcontrol_unit_data_processing
+Z6 !s110 1410414841
+!i10b 1
+!s100 dQmhOijFe<TUFo1ZW@Gjk2
+IzmQVNYdo`gl>AiKVU:M^F1
+R1
+R2
+w1371846155
+8D:/intern project/combine_add_datapath/control_data_rocessing.v
+FD:/intern project/combine_add_datapath/control_data_rocessing.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414841.490000
+!s107 D:/intern project/combine_add_datapath/control_data_rocessing.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/combine_add_datapath/control_data_rocessing.v|
+!s101 -O0
+!i113 1
+R4
+vdata_mem
+Z7 !s110 1410414837
+!i10b 1
+!s100 ;h4[C9W:^RgIRM`Flj:SY1
+IZYcIjTK2Z7K^l3A5U`@FY0
+R1
+R2
+w1373489250
+8D:/intern project/new_unpipelined/data_mem.v
+FD:/intern project/new_unpipelined/data_mem.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414837.214000
+!s107 D:/intern project/new_unpipelined/data_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/data_mem.v|
+!s101 -O0
+!i113 1
+R4
+vfinal_datapath
+R6
+!i10b 1
+!s100 Tj]Qz6kG@^@7fT:GP0E^61
+IXO[PAY5Bk_<A?`6Toe2P;2
+R1
+R2
+w1373459271
+8D:/intern project/new_unpipelined/final_datapath.v
+FD:/intern project/new_unpipelined/final_datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414841.192000
+!s107 D:/intern project/new_unpipelined/final_datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/final_datapath.v|
+!s101 -O0
+!i113 1
+R4
+vfinal_datapath_with_forwarding
+Z8 !s110 1410414842
+!i10b 1
+!s100 0i73R2hNVFV5Vi]=ihQHB3
+I?^bClkD_:3iLL:7o1ZRc53
+R1
+R2
+w1373536739
+8D:/intern project/new_unpipelined/final_datapath_with_forwarding.v
+FD:/intern project/new_unpipelined/final_datapath_with_forwarding.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414842.368000
+!s107 D:/intern project/new_unpipelined/final_datapath_with_forwarding.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/final_datapath_with_forwarding.v|
+!s101 -O0
+!i113 1
+R4
+vflag_register
+R5
+!i10b 1
+!s100 Zd1dOc7kE9MTilbMk0DX_0
+IW:[L2kk`BSPBd0]A5o`_e3
+R1
+R2
+w1373392042
+8D:/intern project/new_unpipelined/flag_register.v
+FD:/intern project/new_unpipelined/flag_register.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414836.659000
+!s107 D:/intern project/new_unpipelined/flag_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/flag_register.v|
+!s101 -O0
+!i113 1
+R4
+vforwarding_check_logic
+Z9 !s110 1410414843
+!i10b 1
+!s100 aoJH@[fL:3ZFf3=zZXUOW2
+IPPcNP>cn3m2Mm[ozWYZbk0
+R1
+R2
+w1373520215
+8D:/intern project/forwarding/forwarding_check_logic.v
+FD:/intern project/forwarding/forwarding_check_logic.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414843.351000
+!s107 D:/intern project/forwarding/forwarding_check_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/forwarding/forwarding_check_logic.v|
+!s101 -O0
+!i113 1
+R4
+vforwarding_logic
+R9
+!i10b 1
+!s100 jkf2k^mj_:@GKRNAL@TzJ0
+I5dMjPG3PCCUnOFO>QWmTB1
+R1
+R2
+w1373487856
+8D:/intern project/forwarding/forwarding_logic.v
+FD:/intern project/forwarding/forwarding_logic.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414843.583000
+!s107 D:/intern project/forwarding/forwarding_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/forwarding/forwarding_logic.v|
+!s101 -O0
+!i113 1
+R4
+vid_alu_pipeline_reg
+R6
+!i10b 1
+!s100 Xml42CXV8aYO7jJSA5m?70
+Ia35EHnb2aa7f[OEInhN6M3
+R1
+R2
+w1373520218
+8D:/intern project/new_unpipelined/id_alu_pipeline_reg.v
+FD:/intern project/new_unpipelined/id_alu_pipeline_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414840.900000
+!s107 D:/intern project/new_unpipelined/id_alu_pipeline_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/id_alu_pipeline_reg.v|
+!s101 -O0
+!i113 1
+R4
+vinst_reg_pipeline
+R8
+!i10b 1
+!s100 cGN;cz^H2zJ?SC4Y6NjOE2
+IkQ^ma<^lK3NlAW5m]ImW_0
+R1
+R2
+w1373528458
+8D:/intern project/new_unpipelined/inst_reg_pipeline.v
+FD:/intern project/new_unpipelined/inst_reg_pipeline.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414842.097000
+!s107 D:/intern project/new_unpipelined/inst_reg_pipeline.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/inst_reg_pipeline.v|
+!s101 -O0
+!i113 1
+R4
+vinstruction_memory
+R7
+!i10b 1
+!s100 1Lo?LG^H^;dzY@DA6h6[52
+IJ=_FLaYeW2O]UzChSE9O12
+R1
+R2
+w1373539219
+8D:/intern project/instruction_memory.v
+FD:/intern project/instruction_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414837.584000
+!s107 D:/intern project/instruction_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/instruction_memory.v|
+!s101 -O0
+!i113 1
+R4
+vkeep_load_track
+!s110 1410414844
+!i10b 1
+!s100 `OP;Xm43coT2^NPnJlac43
+IS@gO4bnHmSe@oiHAKg5z73
+R1
+R2
+w1373519465
+8D:/intern project/new_unpipelined/keep_load_track.v
+FD:/intern project/new_unpipelined/keep_load_track.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414844.065000
+!s107 D:/intern project/new_unpipelined/keep_load_track.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/keep_load_track.v|
+!s101 -O0
+!i113 1
+R4
+vmain_control_unit
+Z10 !s110 1410414840
+!i10b 1
+!s100 KFE4NNET79=9P6H0NOGHz0
+IB4GmmV4kVGT>Jk58cknni0
+R1
+R2
+w1373519784
+8D:/intern project/new_unpipelined/main_control_unit.v
+FD:/intern project/new_unpipelined/main_control_unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414840.247000
+!s107 D:/intern project/new_unpipelined/main_control_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/main_control_unit.v|
+!s101 -O0
+!i113 1
+R4
+vmatch_address
+R9
+!i10b 1
+!s100 1R>h>kkZaFdV:X6M7;HWD2
+I0>b_:m9U>ceW166R[418T2
+R1
+R2
+w1373479476
+8D:/intern project/forwarding/match_address.v
+FD:/intern project/forwarding/match_address.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414843.819000
+!s107 D:/intern project/forwarding/match_address.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/forwarding/match_address.v|
+!s101 -O0
+!i113 1
+R4
+vmux_2x1_1bit
+Z11 !s110 1410414839
+!i10b 1
+!s100 MkVl4bz5B1@[QFZ?nXVA53
+IHlb`_lcW?Zz>D=9laSJgc1
+R1
+R2
+w1396297512
+8D:/intern project/mux_structural/mux_2x1_1bit.v
+FD:/intern project/mux_structural/mux_2x1_1bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414839.087000
+!s107 D:/intern project/mux_structural/mux_2x1_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/mux_structural/mux_2x1_1bit.v|
+!s101 -O0
+!i113 1
+R4
+vmux_2x1_32bit
+R0
+!i10b 1
+!s100 n=Jz?D@XmNo3^acFjeIAi0
+IJ1Em<NcgmL_DcSFF3<WLG0
+R1
+R2
+w1371765609
+8D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v
+FD:/intern project/mux_2x1_32bit/mux_2x1_32bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414838.139000
+!s107 D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v|
+!s101 -O0
+!i113 1
+R4
+vmux_2x1_4bit
+R0
+!i10b 1
+!s100 _;ZQFz3ACFbUzMzXAd7he2
+I<YEDGDTb_`C^eaL:4^maM1
+R1
+R2
+w1373288162
+8D:/intern project/new_unpipelined/mux_2x1_4bit.v
+FD:/intern project/new_unpipelined/mux_2x1_4bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414838.797000
+!s107 D:/intern project/new_unpipelined/mux_2x1_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/mux_2x1_4bit.v|
+!s101 -O0
+!i113 1
+R4
+vmux_4x1_32bit
+R10
+!i10b 1
+!s100 VCWg;^B6TRMP67Tf97GMJ3
+I@R;`:j7EGNTXIGBQRfHTJ1
+R1
+R2
+w1373290006
+8D:/intern project/new_unpipelined/mux_4x1_32bit.v
+FD:/intern project/new_unpipelined/mux_4x1_32bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414839.978000
+!s107 D:/intern project/new_unpipelined/mux_4x1_32bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/mux_4x1_32bit.v|
+!s101 -O0
+!i113 1
+R4
+vmuxing_forwarding_logic
+R9
+!i10b 1
+!s100 aRKMJFjF5gLT4J8c;3<dE0
+I64[Vk;Tm6^HGGcD_VAmH=3
+R1
+R2
+w1373480592
+8D:/intern project/forwarding/muxing_forwarding_logic.v
+FD:/intern project/forwarding/muxing_forwarding_logic.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414843.117000
+!s107 D:/intern project/forwarding/muxing_forwarding_logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/forwarding/muxing_forwarding_logic.v|
+!s101 -O0
+!i113 1
+R4
+vnew_regfile_for_forwarding
+R8
+!i10b 1
+!s100 P^lFG>fK:UMUhMF09fQm92
+Ik05n@bb7C8]8[J@V>4b3^3
+R1
+R2
+w1373528599
+8D:/intern project/new_unpipelined/new_regfile_for_forwarding.v
+FD:/intern project/new_unpipelined/new_regfile_for_forwarding.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414842.694000
+!s107 D:/intern project/new_unpipelined/new_regfile_for_forwarding.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/new_regfile_for_forwarding.v|
+!s101 -O0
+!i113 1
+R4
+vpc_incrementer
+R7
+!i10b 1
+!s100 Y0Q[cGXaNOX2aI]IQ85Oz3
+I]24Ulg34AD[;YV>H<oZ0C2
+R1
+R2
+w1373263276
+8D:/intern project/pc_incrementer.v
+FD:/intern project/pc_incrementer.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414837.876000
+!s107 D:/intern project/pc_incrementer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/pc_incrementer.v|
+!s101 -O0
+!i113 1
+R4
+vreg_file
+R7
+!i10b 1
+!s100 fRfKzQzl;=;e0_ZIeoUL?3
+IBNC_AMMjY_Ei6123GdbgC1
+R1
+R2
+w1373462665
+Z12 8D:/intern project/new_unpipelined/reg_file.v
+Z13 FD:/intern project/new_unpipelined/reg_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414836.927000
+Z14 !s107 D:/intern project/new_unpipelined/reg_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/reg_file.v|
+!s101 -O0
+!i113 1
+R4
+vregister_32
+IPYR7_f_K<D7gN]lQA>nHV1
+R1
+R2
+w1372762889
+R12
+R13
+L0 1
+Z15 OP;L;10.2b;57
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/intern project/new_unpipelined/reg_file.v|
+R4
+!s110 1372762890
+!s100 N>0=h5e2fhbQfZK`hVKC?1
+!s108 1372762890.264000
+R14
+!i10b 1
+!s85 0
+!s101 -O0
+vshifter
+R10
+!i10b 1
+!s100 QOGzTCIR`z`hJXAEaYYN[2
+I7@:m;2V5?^oiJda6;0gJ22
+R1
+R2
+w1373489254
+8D:/intern project/new_rotater/new_shifter.v
+FD:/intern project/new_rotater/new_shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414840.542000
+!s107 D:/intern project/new_rotater/new_shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_rotater/new_shifter.v|
+!s101 -O0
+!i113 1
+R4
+vsign_extender_26x32
+R11
+!i10b 1
+!s100 4QRA7HoT;gkGM3mUR;ChU0
+I2Lz;]E=1c]MBo<9EDbZ[23
+R1
+R2
+w1373289551
+8D:/intern project/new_unpipelined/sign_extender_26X32.v
+FD:/intern project/new_unpipelined/sign_extender_26X32.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414839.629000
+!s107 D:/intern project/new_unpipelined/sign_extender_26X32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/sign_extender_26X32.v|
+!s101 -O0
+!i113 1
+R4
+vsubtractor
+R11
+!i10b 1
+!s100 ^9Og5VFX;39QBB<H2AZQg3
+I]g1IcB9?nV33o]`]mll4C2
+R1
+R2
+w1373288326
+8D:/intern project/new_unpipelined/subtractor_by_8.v
+FD:/intern project/new_unpipelined/subtractor_by_8.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414839.357000
+!s107 D:/intern project/new_unpipelined/subtractor_by_8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/subtractor_by_8.v|
+!s101 -O0
+!i113 1
+R4
+vultra_new_reg_file
+!s110 1373461407
+!s100 =Rzo=>mSU>^DgH6l?>=W30
+I:ThiSfJ0gZM=cP_Mb2bGD2
+R1
+R2
+w1373408247
+8D:/intern project/New folder (3)/ultra_new_reg_file.v
+FD:/intern project/New folder (3)/ultra_new_reg_file.v
+L0 1
+R15
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/intern project/New folder (3)/ultra_new_reg_file.v|
+R4
+!s108 1373461407.489000
+!s107 D:/intern project/New folder (3)/ultra_new_reg_file.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vwb_pipeline_reg
+R6
+!i10b 1
+!s100 ]mMU4Va5XDH8lHdzhk>mK2
+IVQ20QJjABFFMTaDXgXTc]3
+R1
+R2
+w1373396834
+8D:/intern project/new_unpipelined/wb_pipeline_reg.v
+FD:/intern project/new_unpipelined/wb_pipeline_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1410414841.822000
+!s107 D:/intern project/new_unpipelined/wb_pipeline_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/new_unpipelined/wb_pipeline_reg.v|
+!s101 -O0
+!i113 1
+R4

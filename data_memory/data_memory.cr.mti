@@ -1,0 +1,15 @@
+{D:/intern project/data_memory/data_memory.v} {1 {vlog -work work {D:/intern project/data_memory/data_memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} {D:/intern project/data_memory/data_memory_tb.v} {1 {vlog -work work {D:/intern project/data_memory/data_memory_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module data_memory_tb
+
+Top level modules:
+	data_memory_tb
+
+} {} {}}

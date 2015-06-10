@@ -1,0 +1,15 @@
+C:/Modeltech_pe_edu_10.2b/examples/tb_tr.v {1 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/tb_tr.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module tb_tr
+
+Top level modules:
+	tb_tr
+
+} {} {}} C:/Modeltech_pe_edu_10.2b/examples/tr_concat.v {1 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/tr_concat.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module tr_concat
+
+Top level modules:
+	tr_concat
+
+} {} {}}

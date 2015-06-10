@@ -1,0 +1,46 @@
+module frwrding_tb();
+  
+  reg [3:0] in_add1,in_add2,in_add3,in_add4,match_add1,match_add2,match_add3;
+  reg rd1,rd2,rd3,rd4,load;
+  reg wr1,wr2,wr3;
+  
+  wire [1:0] mux_sel1,mux_sel2,mux_sel3,mux_sel4;
+  wire freeze;
+  
+  forwarding_logic frwrd_wb(in_add1,in_add2,in_add3,in_add4,rd1,rd2,rd3,rd4,wr1,wr2,wr3,load,match_add1,
+                        match_add2,match_add3,mux_sel1,mux_sel2,mux_sel3,mux_sel4,freeze);
+                        
+  initial
+  begin
+    rd1=0;rd2=0;rd3=0;rd4=0;load=0;wr1=0;wr2=0;wr3=0;
+    in_add1=4'd5;
+    in_add2=4'd8;
+    in_add3=4'd10;
+    in_add4=4'd7;
+    match_add1=4'd10;
+    match_add2=4'd9;
+    match_add3=4'd5;
+    
+    
+    #2
+    rd1=1;rd2=1;rd3=0;rd4=0;load=0;wr1=1;wr2=1;wr3=1;
+    
+    #2
+    rd1=0;rd2=0;rd3=1;rd4=1;load=0;
+    
+    #2
+    rd1=1;rd2=1;rd3=0;rd4=1;load=1;
+    
+    #2
+    rd1=1;rd2=0;rd3=1;rd4=0;load=1;
+    
+    #2
+    rd1=0;rd2=0;rd3=0;rd4=0;load=0;
+    
+    #2 rd1=1;
+    
+    #2 wr3=0;
+    
+  end
+  
+endmodule

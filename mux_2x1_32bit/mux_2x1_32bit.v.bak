@@ -1,0 +1,42 @@
+module mux_2x1_32bit(in_data1,in_data2,select,out_data);
+  input [31:0] in_data1,in_data2;
+  input select;
+  output [31:0] out_data;
+  
+  wire [31:0] in_data1,in_data2,out_data;
+  wire select;
+  
+  mux_2x1_1bit mux31(.in_1(in_data1[31]),.in2(in_data2[31]),.select_line(select),.out_data(out_data[31]));
+  mux_2x1_1bit mux30(.in_1(in_data1[30]),.in2(in_data2[30]),.select_line(select),.out_data(out_data[30]));
+  mux_2x1_1bit mux29(.in_1(in_data1[29]),.in2(in_data2[29]),.select_line(select),.out_data(out_data[29]));
+  mux_2x1_1bit mux28(.in_1(in_data1[28]),.in2(in_data2[28]),.select_line(select),.out_data(out_data[28]));
+  mux_2x1_1bit mux27(.in_1(in_data1[27]),.in2(in_data2[27]),.select_line(select),.out_data(out_data[27]));
+  mux_2x1_1bit mux26(.in_1(in_data1[26]),.in2(in_data2[26]),.select_line(select),.out_data(out_data[26]));
+  mux_2x1_1bit mux25(.in_1(in_data1[25]),.in2(in_data2[25]),.select_line(select),.out_data(out_data[25]));
+  mux_2x1_1bit mux24(.in_1(in_data1[24]),.in2(in_data2[24]),.select_line(select),.out_data(out_data[24]));
+  mux_2x1_1bit mux23(.in_1(in_data1[23]),.in2(in_data2[23]),.select_line(select),.out_data(out_data[23]));
+  mux_2x1_1bit mux22(.in_1(in_data1[22]),.in2(in_data2[22]),.select_line(select),.out_data(out_data[22]));
+  mux_2x1_1bit mux21(.in_1(in_data1[21]),.in2(in_data2[21]),.select_line(select),.out_data(out_data[21]));
+  mux_2x1_1bit mux20(.in_1(in_data1[20]),.in2(in_data2[20]),.select_line(select),.out_data(out_data[20]));
+  mux_2x1_1bit mux19(.in_1(in_data1[19]),.in2(in_data2[19]),.select_line(select),.out_data(out_data[19]));
+  mux_2x1_1bit mux18(.in_1(in_data1[18]),.in2(in_data2[18]),.select_line(select),.out_data(out_data[18]));
+  mux_2x1_1bit mux17(.in_1(in_data1[17]),.in2(in_data2[17]),.select_line(select),.out_data(out_data[17]));
+  mux_2x1_1bit mux16(.in_1(in_data1[16]),.in2(in_data2[16]),.select_line(select),.out_data(out_data[16]));
+  mux_2x1_1bit mux15(.in_1(in_data1[15]),.in2(in_data2[15]),.select_line(select),.out_data(out_data[15]));
+  mux_2x1_1bit mux14(.in_1(in_data1[14]),.in2(in_data2[14]),.select_line(select),.out_data(out_data[14]));
+  mux_2x1_1bit mux13(.in_1(in_data1[13]),.in2(in_data2[13]),.select_line(select),.out_data(out_data[13]));
+  mux_2x1_1bit mux12(.in_1(in_data1[12]),.in2(in_data2[12]),.select_line(select),.out_data(out_data[12]));
+  mux_2x1_1bit mux11(.in_1(in_data1[11]),.in2(in_data2[11]),.select_line(select),.out_data(out_data[11]));
+  mux_2x1_1bit mux10(.in_1(in_data1[10]),.in2(in_data2[10]),.select_line(select),.out_data(out_data[10]));
+  mux_2x1_1bit mux09(.in_1(in_data1[09]),.in2(in_data2[09]),.select_line(select),.out_data(out_data[09]));
+  mux_2x1_1bit mux08(.in_1(in_data1[08]),.in2(in_data2[08]),.select_line(select),.out_data(out_data[08]));
+  mux_2x1_1bit mux07(.in_1(in_data1[07]),.in2(in_data2[07]),.select_line(select),.out_data(out_data[07]));
+  mux_2x1_1bit mux06(.in_1(in_data1[06]),.in2(in_data2[06]),.select_line(select),.out_data(out_data[06]));
+  mux_2x1_1bit mux05(.in_1(in_data1[05]),.in2(in_data2[05]),.select_line(select),.out_data(out_data[05]));
+  mux_2x1_1bit mux04(.in_1(in_data1[04]),.in2(in_data2[04]),.select_line(select),.out_data(out_data[04]));
+  mux_2x1_1bit mux03(.in_1(in_data1[03]),.in2(in_data2[03]),.select_line(select),.out_data(out_data[03]));
+  mux_2x1_1bit mux02(.in_1(in_data1[02]),.in2(in_data2[02]),.select_line(select),.out_data(out_data[02]));
+  mux_2x1_1bit mux01(.in_1(in_data1[01]),.in2(in_data2[01]),.select_line(select),.out_data(out_data[01]));
+  mux_2x1_1bit mux00(.in_1(in_data1[00]),.in2(in_data2[00]),.select_line(select),.out_data(out_data[00]));
+   
+endmodule

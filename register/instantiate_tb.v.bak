@@ -1,0 +1,4 @@
+module instantiate_tb();
+  register_file_32 trial();
+  
+endmodule

@@ -1,0 +1,15 @@
+C:/Modeltech_pe_edu_10.2b/examples/pc_incrementer.v {1 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/pc_incrementer.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module pc_incrementer
+
+Top level modules:
+	pc_incrementer
+
+} {} {}} {D:/intern project/pc_incrementer/pc_incrementer_tb.v} {1 {vlog -work work {D:/intern project/pc_incrementer/pc_incrementer_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module pc_incrementer_tb
+
+Top level modules:
+	pc_incrementer_tb
+
+} {} {}}

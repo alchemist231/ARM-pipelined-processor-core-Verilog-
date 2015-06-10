@@ -1,0 +1,22 @@
+{D:/intern project/register/register_file_tb.v} {1 {vlog -work work {D:/intern project/register/register_file_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module register_file_tb
+
+Top level modules:
+	register_file_tb
+
+} {} {}} {D:/intern project/register/register_32.v} {1 {vlog -work work {D:/intern project/register/register_32.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module register_32
+
+Top level modules:
+	register_32
+
+} {} {}} {D:/intern project/register/instantiate_tb.v} {1 {vlog -work work {D:/intern project/register/instantiate_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module instantiate_tb
+
+Top level modules:
+	instantiate_tb
+
+} {} {}}

@@ -1,0 +1,17 @@
+module control_tb();
+  
+  reg clock;
+  
+  control_unit_data_processing datapath1(clock);
+  
+  initial
+  begin
+  clock=0;
+  end
+  
+  always
+  begin
+  #5 clock=~clock;
+  end
+  
+endmodule

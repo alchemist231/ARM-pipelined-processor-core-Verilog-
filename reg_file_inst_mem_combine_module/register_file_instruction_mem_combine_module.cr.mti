@@ -1,0 +1,15 @@
+{D:/intern project/reg_file_inst_mem_combine_module/combine_tb_reg_file_inst_mem.v} {1 {vlog -work work {D:/intern project/reg_file_inst_mem_combine_module/combine_tb_reg_file_inst_mem.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module combine_tb_reg_file_inst_mem
+
+Top level modules:
+	combine_tb_reg_file_inst_mem
+
+} {} {}} C:/Modeltech_pe_edu_10.2b/examples/instruction_memory.v {1 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/instruction_memory.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}}

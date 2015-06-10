@@ -1,0 +1,6 @@
+module mux_2x1_24bit_using8bit_mux(in1,in2,sel,out_data);
+	
+	input wire [23:0] in1,in2;
+	input wire sel;
+	output wire [23:0] out_data;
+endmodule

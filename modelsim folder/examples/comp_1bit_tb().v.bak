@@ -1,0 +1,25 @@
+module comp_1bit_tb();
+  reg in1,in2;
+  wire out_greater,out_less,out_equal;
+  comparator_1bit a(in1,in2,out_greater,out_less,out_equal);
+  
+  initial begin
+    in1=1;
+    in2=1;
+    
+    #5
+    in1=0;
+    
+    #5
+    in2=0;
+    
+    #5
+    in1=1;
+    
+  end
+  
+  //always @(posedge clk)
+endmodule
+  
+  
+  

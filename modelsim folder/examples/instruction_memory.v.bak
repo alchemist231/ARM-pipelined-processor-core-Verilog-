@@ -1,0 +1,56 @@
+module instruction_memory(inst_address,inst_read,inst_write,inst_write_data,inst_out);
+  input [31:0] inst_address,inst_write_data;
+  input inst_read,inst_write;
+  output [31:0] inst_out;
+  
+  wire [31:0] inst_address,inst_write_data;
+  wire inst_read,inst_write;
+  reg [31:0] inst_out;
+  
+  reg [7:0] inst_mem [31:0];
+  
+  initial
+  begin
+    inst_mem[32'h00000000]=8'h12;
+    inst_mem[32'h00000001]=8'h13;
+    inst_mem[32'h00000002]=8'h12;
+    inst_mem[32'h00000003]=8'h12;
+    
+    inst_mem[32'h00000004]=8'h19;
+    inst_mem[32'h00000005]=8'h19;
+    inst_mem[32'h00000006]=8'h19;
+    inst_mem[32'h00000007]=8'h19;
+    
+    inst_mem[32'h00000008]=8'h33;
+    inst_mem[32'h00000009]=8'h00;
+    inst_mem[32'h0000000a]=8'h33;
+    inst_mem[32'h0000000b]=8'h00;
+  end
+    
+  //assign inst_out=(inst_read)?{inst_mem[inst_address],inst_mem[inst_address+1],inst_mem[inst_address+2],inst_mem[inst_address+3]}: inst_out;
+  always@(inst_read)
+  begin
+  if(inst_read)
+  begin
+   inst_out={inst_mem[inst_address],inst_mem[inst_address+1],inst_mem[inst_address+2],inst_mem[inst_address+3]};
+  end
+  else
+    begin
+      inst_out=inst_out;
+    end
+  end
+  
+  
+  always@(inst_write)     // change these always statement to assign statement
+  begin
+    if(inst_write)
+      begin
+        inst_mem[inst_address]=inst_write_data[31:24];
+        inst_mem[inst_address+1]=inst_write_data[23:16];
+        inst_mem[inst_address+2]=inst_write_data[15:8];
+        inst_mem[inst_address+3]=inst_write_data[7:0];
+      end
+  end
+  
+
+endmodule

@@ -1,0 +1,15 @@
+{D:/intern project/ALU.v} {1 {vlog -work work {D:/intern project/ALU.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/intern project/ALU_tb.v} {1 {vlog -work work {D:/intern project/ALU_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}}

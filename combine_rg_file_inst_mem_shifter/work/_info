@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vcombine_rg_file_inst_mem_shifter_tb
+Z1 I2ZC3alcf44MSd0:z0AEfg2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dD:/intern project/combine_rg_file_inst_mem_shifter
+Z4 w1371801958
+Z5 8D:/intern project/combine_rg_file_inst_mem_shifter/combine_rg_file_inst_mem_shifter.v
+Z6 FD:/intern project/combine_rg_file_inst_mem_shifter/combine_rg_file_inst_mem_shifter.v
+L0 1
+Z7 OP;L;10.2b;57
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|D:/intern project/combine_rg_file_inst_mem_shifter/combine_rg_file_inst_mem_shifter.v|
+Z9 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z10 !s110 1371801960
+Z11 !s100 m9_A3:kbbYZZY<[78L=Bz3
+Z12 !s108 1371801960.010000
+Z13 !s107 D:/intern project/combine_rg_file_inst_mem_shifter/combine_rg_file_inst_mem_shifter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinstruction_memory
+R10
+Z14 !s100 ee9ImHg`e0cdXPgBM:o<T3
+Z15 I=Wo^POai3WDSR2HPzWma73
+R2
+R3
+Z16 w1371801781
+Z17 8D:/intern project/instruction_memory.v
+Z18 FD:/intern project/instruction_memory.v
+L0 1
+R7
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|D:/intern project/instruction_memory.v|
+R9
+!i10b 1
+!s85 0
+Z20 !s108 1371801960.420000
+Z21 !s107 D:/intern project/instruction_memory.v|
+!s101 -O0
+vregister_32
+R10
+Z22 !s100 7G?89WO03T4WiMg^57FjT2
+Z23 I7h;gZ:z?Ki:PW3P7@jJ7N0
+R2
+R3
+Z24 w1371801847
+Z25 8D:/intern project/register/register_32.v
+Z26 FD:/intern project/register/register_32.v
+L0 1
+R7
+r1
+31
+Z27 !s90 -reportprogress|300|-work|work|D:/intern project/register/register_32.v|
+R9
+Z28 !s108 1371801960.220000
+Z29 !s107 D:/intern project/register/register_32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshifter_rotater
+R10
+!i10b 1
+Z30 !s100 X@Xd_NNN:;9@DQlgX`F2h1
+Z31 IcD0=fgXD2@1NKdD4m1S=G3
+R2
+R3
+Z32 w1371800190
+Z33 8D:/intern project/shift_rotate/shifter_rotater.v
+Z34 FD:/intern project/shift_rotate/shifter_rotater.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1371801960.640000
+!s107 D:/intern project/shift_rotate/shifter_rotater.v|
+Z35 !s90 -reportprogress|300|-work|work|D:/intern project/shift_rotate/shifter_rotater.v|
+!s101 -O0
+R9

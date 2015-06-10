@@ -1,0 +1,388 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intern project/new_unpipelined
+vadder_1_bit
+Z0 !s110 1413803677
+!i10b 1
+!s100 NG5KWj1<;Y4[oYZgSdEP92
+ITziRQeaIn[E4]Poa67lSc0
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dD:/intern project/OoO
+w1412461217
+8D:/intern project/OoO/adder_1_bit.v
+FD:/intern project/OoO/adder_1_bit.v
+L0 1
+Z3 OP;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1413803677.453000
+!s107 D:/intern project/OoO/adder_1_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/adder_1_bit.v|
+!s101 -O0
+!i113 1
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vadder_sub_24bit
+Z5 !s110 1413803678
+!i10b 1
+!s100 NRGF87lQ]5Vcd<B_Nla0=0
+Ih:H<cY`>jcm2D^3X?5=0k0
+R1
+R2
+w1412490524
+8D:/intern project/OoO/adder_sub_24bit.v
+FD:/intern project/OoO/adder_sub_24bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803678.074000
+!s107 D:/intern project/OoO/adder_sub_24bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/adder_sub_24bit.v|
+!s101 -O0
+!i113 1
+R4
+vadder_sub_8bit
+R0
+!i10b 1
+!s100 Q@?TEAP;UjM2ZP?aIPb6a2
+I]_]7`ATNXj9Llf`U<D=P@2
+R1
+R2
+w1412490198
+8D:/intern project/OoO/adder_sub_8bit.v
+FD:/intern project/OoO/adder_sub_8bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803677.849000
+!s107 D:/intern project/OoO/adder_sub_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/adder_sub_8bit.v|
+!s101 -O0
+!i113 1
+R4
+vcomp1bit
+!s110 1412430856
+!i10b 1
+!s100 ma?0UzM6C=>KPU3Sgc09V1
+I2A<=HZ2S09UIh47j?P8VH1
+R1
+R2
+w1412430598
+Z6 8D:/intern project/OoO/comparator_1_bit.v
+Z7 FD:/intern project/OoO/comparator_1_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1412430856.834000
+Z8 !s107 D:/intern project/OoO/comparator_1_bit.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/comparator_1_bit.v|
+!s101 -O0
+!i113 1
+R4
+vcomp_8bit_tb
+!s110 1412433672
+!i10b 1
+!s100 O4FePKzH6HEh=GKf95V`:1
+IH^`fS7mS3V1LoMMPk1Y0O2
+R1
+R2
+w1412433669
+8D:/intern project/OoO/comp_8bit_tb.v
+FD:/intern project/OoO/comp_8bit_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1412433672.385000
+!s107 D:/intern project/OoO/comp_8bit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/comp_8bit_tb.v|
+!s101 -O0
+!i113 1
+R4
+vcomparator_1_bit
+Z10 !s110 1413803676
+!i10b 1
+!s100 KPN;8<PUBFM2zDSb_V=_o0
+IYAG?go4jo6O>b6=k=l_211
+R1
+R2
+w1412430983
+R6
+R7
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803676.293000
+R8
+R9
+!s101 -O0
+!i113 1
+R4
+vcomparator_1_bit_tb
+!s110 1412433671
+!i10b 1
+!s100 4nMb^G^]K63lVI3TWH_=10
+IRG8@gBVj07XgmWSo4TfaP1
+R1
+R2
+w1412430994
+8D:/intern project/OoO/comparator_1_bit_tb.v
+FD:/intern project/OoO/comparator_1_bit_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1412433671.774000
+!s107 D:/intern project/OoO/comparator_1_bit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/comparator_1_bit_tb.v|
+!s101 -O0
+!i113 1
+R4
+vcomparator_8_bit
+R10
+!i10b 1
+!s100 HEZLBJOn:7da8olGQihBS1
+I?]IgZJ0Wd5MAlWeS_7PX30
+R1
+R2
+w1412433239
+8D:/intern project/OoO/comparator_8_bit.v
+FD:/intern project/OoO/comparator_8_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803676.525000
+!s107 D:/intern project/OoO/comparator_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/comparator_8_bit.v|
+!s101 -O0
+!i113 1
+R4
+vcounter_5bit
+Z11 !s110 1413803679
+!i10b 1
+!s100 <]>U;YcNkd^M]o4_mLYDz0
+I];F4I8J]bYVd:kj@C?GXl3
+R1
+R2
+w1413802268
+8D:/intern project/OoO/counter_5bit .v
+FD:/intern project/OoO/counter_5bit .v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803679.443000
+!s107 D:/intern project/OoO/counter_5bit .v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/counter_5bit .v|
+!s101 -O0
+!i113 1
+R4
+vcounter_tb
+R11
+!i10b 1
+!s100 YYneo[I;21F^5`VHTDIPT2
+IU@RGW2IT4Ch^VQS:SmYG`2
+R1
+R2
+w1413803674
+8D:/intern project/OoO/counter_5bit_tb.v
+FD:/intern project/OoO/counter_5bit_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803679.659000
+!s107 D:/intern project/OoO/counter_5bit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/counter_5bit_tb.v|
+!s101 -O0
+!i113 1
+R4
+vmantissa_shift_control
+R11
+!i10b 1
+!s100 h2oNm25UmEOM]UKjGm<6V2
+IU6d`8dPYHXXEXMhR@BeUZ3
+R1
+R2
+w1413802265
+8D:/intern project/OoO/mantissa_shift_control.v
+FD:/intern project/OoO/mantissa_shift_control.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803679.184000
+!s107 D:/intern project/OoO/mantissa_shift_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/mantissa_shift_control.v|
+!s101 -O0
+!i113 1
+R4
+vmux_2x1_1bit
+R10
+!i10b 1
+!s100 MkVl4bz5B1@[QFZ?nXVA53
+I8ZANc@X<8lX7R;k>;77`02
+R1
+R2
+w1396297512
+8D:/intern project/OoO/mux_2x1_1bit.v
+FD:/intern project/OoO/mux_2x1_1bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803676.769000
+!s107 D:/intern project/OoO/mux_2x1_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/mux_2x1_1bit.v|
+!s101 -O0
+!i113 1
+R4
+vmux_2x1_24bit_using8bit_mux
+R0
+!i10b 1
+!s100 S`OMnYGzb>33jBa8mEl=K2
+ITl<1`zAkCAWXV=FbK:@z32
+R1
+R2
+w1412434461
+8D:/intern project/OoO/mux_2x1_24bit_using8bit_mux.v
+FD:/intern project/OoO/mux_2x1_24bit_using8bit_mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803677.223000
+!s107 D:/intern project/OoO/mux_2x1_24bit_using8bit_mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/mux_2x1_24bit_using8bit_mux.v|
+!s101 -O0
+!i113 1
+R4
+vmux_2x1_8bit
+R0
+!i10b 1
+!s100 gN<Bk=9?7SFMPLK^W1V7G1
+IC9m_n6ima]EENABDVd9I]0
+R1
+R2
+w1412434463
+8D:/intern project/OoO/mux_2x1_8bit.v
+FD:/intern project/OoO/mux_2x1_8bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803676.999000
+!s107 D:/intern project/OoO/mux_2x1_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/mux_2x1_8bit.v|
+!s101 -O0
+!i113 1
+R4
+vmux_4x1_1bit
+R5
+!i10b 1
+!s100 M=BJQZ6a_k855E3@cm0QU1
+IP=inY[AL;_8VUA]bWmhid2
+R1
+R2
+w1412491328
+8D:/intern project/OoO/mux_4x1_1bit.v
+FD:/intern project/OoO/mux_4x1_1bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803678.535000
+!s107 D:/intern project/OoO/mux_4x1_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/mux_4x1_1bit.v|
+!s101 -O0
+!i113 1
+R4
+vshift_register_24bits
+R5
+!i10b 1
+!s100 l<mJDjhP5`5e<G0<=8Q[X3
+Ioz`LGmfI>fJLK^a?CKJ@X1
+R1
+R2
+w1412571367
+8D:/intern project/OoO/shift_register_24bits.v
+FD:/intern project/OoO/shift_register_24bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803678.757000
+!s107 D:/intern project/OoO/shift_register_24bits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/shift_register_24bits.v|
+!s101 -O0
+!i113 1
+R4
+vshift_register_8bits
+R5
+!i10b 1
+!s100 jP2LnA:hAVioVH@eX1UGm0
+II?GMPaCIoG8eeh_P0hHZ13
+R1
+R2
+w1412493622
+8D:/intern project/OoO/shift_register_8bits.v
+FD:/intern project/OoO/shift_register_8bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803678.298000
+!s107 D:/intern project/OoO/shift_register_8bits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/shift_register_8bits.v|
+!s101 -O0
+!i113 1
+R4
+vshift_regiter_8bit_tb
+R11
+!i10b 1
+!s100 <:OFjhjMRkYU:3<;Zb^TX1
+Iz48FgfTkiVRAL@D=<TQ660
+R1
+R2
+w1413800142
+8D:/intern project/OoO/shift_register_8bit_tb.v
+FD:/intern project/OoO/shift_register_8bit_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1413803678.969000
+!s107 D:/intern project/OoO/shift_register_8bit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intern project/OoO/shift_register_8bit_tb.v|
+!s101 -O0
+!i113 1
+R4

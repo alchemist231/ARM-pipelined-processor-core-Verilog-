@@ -1,0 +1,55 @@
+{D:/intern project/register/register_32.v} {1 {vlog -work work {D:/intern project/register/register_32.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module register_32
+
+Top level modules:
+	register_32
+
+} {} {}} {D:/intern project/pc_incrementer.v} {1 {vlog -work work {D:/intern project/pc_incrementer.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module pc_incrementer
+
+Top level modules:
+	pc_incrementer
+
+} {} {}} {D:/intern project/instruction_memory.v} {1 {vlog -work work {D:/intern project/instruction_memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} {D:/intern project/ALU.v} {1 {vlog -work work {D:/intern project/ALU.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/intern project/shift_rotate/shifter_rotater.v} {1 {vlog -work work {D:/intern project/shift_rotate/shifter_rotater.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module shifter_rotater
+
+Top level modules:
+	shifter_rotater
+
+} {} {}} {D:/intern project/combine_add_datapath/control_tb.v} {1 {vlog -work work {D:/intern project/combine_add_datapath/control_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module control_tb
+
+Top level modules:
+	control_tb
+
+} {} {}} {D:/intern project/combine_add_datapath/control_data_rocessing.v} {1 {vlog -work work {D:/intern project/combine_add_datapath/control_data_rocessing.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module control_unit_data_processing
+
+Top level modules:
+	control_unit_data_processing
+
+} {} {}} {D:/intern project/combine_add_datapath/combined_data_process_datapath.v} {0 {vlog -work work {D:/intern project/combine_add_datapath/combined_data_process_datapath.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module combine_data_process_datapath_tb
+** Error: D:/intern project/combine_add_datapath/combined_data_process_datapath.v(41): near "carry_flag": syntax error, unexpected IDENTIFIER, expecting ';'
+
+} {4.0 5.0} {}}

@@ -1,0 +1,4 @@
+assign less_or_1<=comp_1_l;
+  and a4(less_or_2,comp_1_e,comp_2_l);
+  and a5(less_or_3,comp_1_e,comp_2_e,comp_3_l);
+  and a6(less_or_4,comp_1_e,comp_2_e,comp_3_e,comp_4_l);

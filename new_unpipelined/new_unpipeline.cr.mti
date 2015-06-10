@@ -1,0 +1,344 @@
+{D:/intern project/new_unpipelined/main_control_unit.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/main_control_unit.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module main_control_unit
+
+Top level modules:
+	main_control_unit
+
+} {} {}} {D:/intern project/new_unpipelined/final_datapath_with_forwarding.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/final_datapath_with_forwarding.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module final_datapath_with_forwarding
+
+Top level modules:
+	final_datapath_with_forwarding
+
+} {} {}} {D:/intern project/new_unpipelined/reg_file.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/reg_file.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} {{D:/intern project/new_unpipelined/flag_register.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/flag_register.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module flag_register
+
+Top level modules:
+	flag_register
+
+} {} {}} {D:/intern project/new_unpipelined/data_mem.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/data_mem.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} {{D:/intern project/pc_incrementer.v}} {1 {vlog -work work {D:/intern project/pc_incrementer.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module pc_incrementer
+
+Top level modules:
+	pc_incrementer
+
+} {} {}} {{D:/intern project/new_unpipelined/main_control_unit.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/main_control_unit.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module main_control_unit
+
+Top level modules:
+	main_control_unit
+
+} {} {}} {{D:/intern project/new_unpipelined/final_datapath_with_forwarding.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/final_datapath_with_forwarding.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module final_datapath
+
+Top level modules:
+	final_datapath
+
+} {} {}} {{D:/intern project/new_unpipelined/mux_2x1_4bit.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/mux_2x1_4bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module mux_2x1_4bit
+
+Top level modules:
+	mux_2x1_4bit
+
+} {} {}} {D:/intern project/new_unpipelined/flag_register.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/flag_register.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module flag_register
+
+Top level modules:
+	flag_register
+
+} {} {}} {D:/intern project/new_unpipelined/id_alu_pipeline_reg.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/id_alu_pipeline_reg.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module id_alu_pipeline_reg
+
+Top level modules:
+	id_alu_pipeline_reg
+
+} {} {}} {D:/intern project/forwarding/forwarding_check_logic.v} {1 {vlog -work work -stats=none {D:/intern project/forwarding/forwarding_check_logic.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module forwarding_check_logic
+
+Top level modules:
+	forwarding_check_logic
+
+} {} {}} {D:/intern project/new_unpipelined/subtractor_by_8.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/subtractor_by_8.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module subtractor
+
+Top level modules:
+	subtractor
+
+} {} {}} {D:/intern project/new_rotater/new_shifter.v} {1 {vlog -work work -stats=none {D:/intern project/new_rotater/new_shifter.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} {D:/intern project/instruction_memory.v} {1 {vlog -work work -stats=none {D:/intern project/instruction_memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} {D:/intern project/forwarding/forwarding_logic.v} {1 {vlog -work work -stats=none {D:/intern project/forwarding/forwarding_logic.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module forwarding_logic
+
+Top level modules:
+	forwarding_logic
+
+} {} {}} {D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v} {1 {vlog -work work -stats=none {D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module mux_2x1_32bit
+
+Top level modules:
+	mux_2x1_32bit
+
+} {} {}} {{D:/intern project/new_unpipelined/data_mem.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/data_mem.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} {D:/intern project/new_unpipelined/mux_4x1_32bit.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/mux_4x1_32bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module mux_4x1_32bit
+
+Top level modules:
+	mux_4x1_32bit
+
+} {} {}} {{D:/intern project/new_rotater/new_shifter.v}} {1 {vlog -work work {D:/intern project/new_rotater/new_shifter.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} {{D:/intern project/new_unpipelined/subtractor_by_8.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/subtractor_by_8.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module subtractor
+
+Top level modules:
+	subtractor
+
+} {} {}} {{D:/intern project/combine_add_datapath/control_data_rocessing.v}} {1 {vlog -work work {D:/intern project/combine_add_datapath/control_data_rocessing.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module control_unit_data_processing
+
+Top level modules:
+	control_unit_data_processing
+
+} {} {}} {D:/intern project/new_unpipelined/wb_pipeline_reg.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/wb_pipeline_reg.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module wb_pipeline_reg
+
+Top level modules:
+	wb_pipeline_reg
+
+} {} {}} {{D:/intern project/new_unpipelined/new_reg_file_for_forwarding.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/new_reg_file_for_forwarding.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} {D:/intern project/mux_structural/mux_2x1_1bit.v} {1 {vlog -work work -stats=none {D:/intern project/mux_structural/mux_2x1_1bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module mux_2x1_1bit
+
+Top level modules:
+	mux_2x1_1bit
+
+} {} {}} {{D:/intern project/new_unpipelined/inst_reg_pipeline.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/inst_reg_pipeline.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module inst_reg_pipeline
+
+Top level modules:
+	inst_reg_pipeline
+
+} {} {}} {D:/intern project/new_unpipelined/final_datapath.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/final_datapath.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module final_datapath
+
+Top level modules:
+	final_datapath
+
+} {} {}} {D:/intern project/pc_incrementer.v} {1 {vlog -work work -stats=none {D:/intern project/pc_incrementer.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module pc_incrementer
+
+Top level modules:
+	pc_incrementer
+
+} {} {}} {D:/intern project/new_unpipelined/new_regfile_for_forwarding.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/new_regfile_for_forwarding.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module new_regfile_for_forwarding
+
+Top level modules:
+	new_regfile_for_forwarding
+
+} {} {}} {D:/intern project/new_unpipelined/keep_load_track.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/keep_load_track.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module keep_load_track
+
+Top level modules:
+	keep_load_track
+
+} {} {}} {{D:/intern project/new_unpipelined/id_alu_pipeline_reg.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/id_alu_pipeline_reg.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module id_alu_pipeline_reg
+
+Top level modules:
+	id_alu_pipeline_reg
+
+} {} {}} {{D:/intern project/new_unpipelined/mux_4x1_32bit.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/mux_4x1_32bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module mux_4x1_32bit
+
+Top level modules:
+	mux_4x1_32bit
+
+} {} {}} {{D:/intern project/new_unpipelined/wb_pipeline_reg.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/wb_pipeline_reg.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module wb_pipeline_reg
+
+Top level modules:
+	wb_pipeline_reg
+
+} {} {}} {{D:/intern project/new_unpipelined/sign_extender_26X32.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/sign_extender_26X32.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module sign_extender_26x32
+
+Top level modules:
+	sign_extender_26x32
+
+} {} {}} {D:/intern project/combine_add_datapath/control_data_rocessing.v} {1 {vlog -work work -stats=none {D:/intern project/combine_add_datapath/control_data_rocessing.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module control_unit_data_processing
+
+Top level modules:
+	control_unit_data_processing
+
+} {} {}} {D:/intern project/new_unpipelined/mux_2x1_4bit.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/mux_2x1_4bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module mux_2x1_4bit
+
+Top level modules:
+	mux_2x1_4bit
+
+} {} {}} {{D:/intern project/mux_structural/mux_2x1_1bit.v}} {1 {vlog -work work {D:/intern project/mux_structural/mux_2x1_1bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module mux_2x1_1bit
+
+Top level modules:
+	mux_2x1_1bit
+
+} {} {}} {D:/intern project/forwarding/match_address.v} {1 {vlog -work work -stats=none {D:/intern project/forwarding/match_address.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module match_address
+
+Top level modules:
+	match_address
+
+} {} {}} {{D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v}} {1 {vlog -work work {D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module mux_2x1_32bit
+
+Top level modules:
+	mux_2x1_32bit
+
+} {} {}} {{D:/intern project/new_unpipelined/ALU_full1}} {1 {vlog -work work {D:/intern project/new_unpipelined/ALU_full1}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module arithematic_logic_unit
+
+Top level modules:
+	arithematic_logic_unit
+
+} {} {}} {D:/intern project/new_unpipelined/ALU_full1} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/ALU_full1}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module arithematic_logic_unit
+
+Top level modules:
+	arithematic_logic_unit
+
+} {} {}} {D:/intern project/new_unpipelined/inst_reg_pipeline.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/inst_reg_pipeline.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module inst_reg_pipeline
+
+Top level modules:
+	inst_reg_pipeline
+
+} {} {}} {D:/intern project/new_unpipelined/sign_extender_26X32.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/sign_extender_26X32.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module sign_extender_26x32
+
+Top level modules:
+	sign_extender_26x32
+
+} {} {}} {D:/intern project/forwarding/muxing_forwarding_logic.v} {1 {vlog -work work -stats=none {D:/intern project/forwarding/muxing_forwarding_logic.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module muxing_forwarding_logic
+
+Top level modules:
+	muxing_forwarding_logic
+
+} {} {}} {{D:/intern project/instruction_memory.v}} {1 {vlog -work work {D:/intern project/instruction_memory.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} {{D:/intern project/new_unpipelined/reg_file.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/reg_file.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} {{D:/intern project/new_unpipelined/final_datapath.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/final_datapath.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module final_datapath
+
+Top level modules:
+	final_datapath
+
+} {} {}} {{D:/intern project/new_unpipelined/alu_mem_pipeline_reg.v}} {1 {vlog -work work {D:/intern project/new_unpipelined/alu_mem_pipeline_reg.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module alu_mem_pipeline_reg
+
+Top level modules:
+	alu_mem_pipeline_reg
+
+} {} {}} {D:/intern project/new_unpipelined/alu_mem_pipeline_reg.v} {1 {vlog -work work -stats=none {D:/intern project/new_unpipelined/alu_mem_pipeline_reg.v}
+Model Technology ModelSim PE Student Edition vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module alu_mem_pipeline_reg
+
+Top level modules:
+	alu_mem_pipeline_reg
+
+} {} {}}

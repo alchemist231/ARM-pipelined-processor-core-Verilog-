@@ -1,0 +1,24 @@
+C:/Modeltech_pe_edu_10.2b/examples/comparator_1bit.v {1 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/comparator_1bit.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module comparator_1bit
+
+Top level modules:
+	comparator_1bit
+
+} {} {}} {D:/intern project/new_unpipelined/final_datapath_with_forwarding.v} {1 {vlog -work work {D:/intern project/new_unpipelined/final_datapath_with_forwarding.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module final_datapath_with_forwarding
+
+Top level modules:
+	final_datapath_with_forwarding
+
+} {} {}} C:/Modeltech_pe_edu_10.2b/examples/comparator_4bit.v {2 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/comparator_4bit.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module comparator_4bit
+** Warning: C:/Modeltech_pe_edu_10.2b/examples/comparator_4bit.v(34): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	comparator_4bit
+
+} {} {}}

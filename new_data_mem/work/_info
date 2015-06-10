@@ -1,0 +1,69 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vcontrol_fsm_mem
+Z1 !s110 1372857667
+!i10b 1
+!s100 hR:n1?Vd:10943c0laiZD2
+I_Vn^Sh_K5=nkjj=heEi>73
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dD:/intern project/new_data_mem
+w1372857664
+Z4 8D:/intern project/new_data_mem/control_fsm_mem.v
+Z5 FD:/intern project/new_data_mem/control_fsm_mem.v
+L0 1
+Z6 OP;L;10.2b;57
+r1
+!s85 0
+31
+!s108 1372857667.743000
+!s107 D:/intern project/new_data_mem/control_fsm_mem.v|
+Z7 !s90 -reportprogress|300|-work|work|D:/intern project/new_data_mem/control_fsm_mem.v|
+!s101 -O0
+Z8 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+vdata_mem
+Z9 !s100 [66T;c0I^;0=QGa;n^7391
+Z10 IVJ5dKeEO<2<Vh?[Pi0DMf1
+R2
+R3
+Z11 w1372802039
+Z12 8D:/intern project/new_unpipelined/data_mem.v
+Z13 FD:/intern project/new_unpipelined/data_mem.v
+L0 1
+R6
+r1
+31
+Z14 !s90 -reportprogress|300|-work|work|D:/intern project/new_unpipelined/data_mem.v|
+R8
+R1
+Z15 !s108 1372857667.033000
+Z16 !s107 D:/intern project/new_unpipelined/data_mem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vnew_data_mem_tb
+R1
+Z17 !s100 DfA;4TfgUhoQZ=:XkUAC@2
+Z18 IgBg_h@HJi43B[R?c6ha:F1
+R2
+R3
+Z19 w1372856671
+Z20 8D:/intern project/new_data_mem/new_data_mem_tb.v
+Z21 FD:/intern project/new_data_mem/new_data_mem_tb.v
+L0 1
+R6
+r1
+31
+Z22 !s90 -reportprogress|300|-work|work|D:/intern project/new_data_mem/new_data_mem_tb.v|
+R8
+!i10b 1
+!s85 0
+Z23 !s108 1372857667.513000
+Z24 !s107 D:/intern project/new_data_mem/new_data_mem_tb.v|
+!s101 -O0

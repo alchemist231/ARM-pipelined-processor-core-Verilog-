@@ -1,0 +1,184 @@
+module arithematic_logic_unit(operand1,operand2,carry_in,overflow_in,alu_control,alu_out,zero_flag,carry_flag,negative_flag,overflow_flag);
+  
+  parameter data_width=32;
+  
+  input [data_width-1:0] operand1,operand2;
+  input carry_in,overflow_in;
+  input [3:0] alu_control;
+  output [data_width-1:0] alu_out;
+  output zero_flag,negative_flag,overflow_flag,carry_flag;
+  
+  wire [data_width-1:0] operand1,operand2;
+  wire carry_in,overflow_in;
+  wire [3:0] alu_control;
+  reg [data_width:0] alu_out_33bits;
+  reg [data_width-1:0] alu_out;
+  reg carry_flag,negative_flag,overflow_flag,zero_flag;
+  
+  always@(operand1,operand2,carry_in,overflow_in,alu_control)
+  begin
+        case(alu_control)
+            4'b0000 : begin
+                      alu_out=operand1 & operand2;
+                      zero_flag=|alu_out;
+                      negative_flag=alu_out[31];
+                      carry_flag=1'bx;
+                      overflow_flag=overflow_in;
+                      end
+                      
+            4'b0001 : begin
+                      alu_out=operand1 ^ operand2;
+                      zero_flag=|alu_out;
+                      negative_flag=alu_out[31];
+                      carry_flag=1'bx;
+                      overflow_flag=overflow_in;
+                      end
+                      
+            4'b0010 : begin
+                      alu_out_33bits=operand1 - operand2;
+                      alu_out=alu_out_33bits[31:0];
+                      zero_flag=|alu_out;
+                      carry_flag=alu_out_33bits[32];
+                      overflow_flag=1'bx;        // think about it
+                      negative_flag=alu_out[31];
+                      end
+                      
+            4'b0011 : begin
+                      alu_out_33bits=operand2 - operand1;
+                      alu_out=alu_out_33bits[31:0];
+                      zero_flag=|alu_out;
+                      carry_flag=alu_out_33bits[32];
+                      overflow_flag=1'bx;        // think about it also... what cause and how to detect overflow
+                      negative_flag=alu_out[31];
+                      end
+                      
+            4'b0100 : begin
+                      alu_out_33bits=operand1 + operand2;
+                      alu_out=alu_out_33bits[31:0];
+                      zero_flag=|alu_out;
+                      carry_flag=alu_out_33bits[32];
+                      overflow_flag=alu_out_33bits[32];        // think about it
+                      negative_flag=alu_out[31];
+                      end
+                      
+            4'b0101 : begin
+                      alu_out_33bits=operand1 + operand2 + carry_in;
+                      alu_out=alu_out_33bits[31:0];
+                      zero_flag=|alu_out;
+                      carry_flag=alu_out_33bits[32];
+                      overflow_flag=alu_out_33bits[32];        // think about it
+                      negative_flag=alu_out[31];
+                      end
+                      
+            4'b0110 : begin
+                      alu_out_33bits=operand1 - operand2 + carry_in - 1;
+                      alu_out=alu_out_33bits[31:0];
+                      zero_flag=|alu_out;
+                      carry_flag=alu_out_33bits[32];
+                      overflow_flag=alu_out_33bits[32];        // think about it
+                      negative_flag=alu_out[31];
+                      end
+                      
+            4'b0111 : begin
+                      alu_out_33bits=operand2 - operand1 + carry_in - 1;
+                      alu_out=alu_out_33bits[31:0];
+                      zero_flag=|alu_out;
+                      carry_flag=alu_out_33bits[32];
+                      overflow_flag=alu_out_33bits[32];        // think about it
+                      negative_flag=alu_out[31];
+                      end
+                      
+            4'b1000 : begin     // only flags updated result not written back
+                      alu_out=operand1 & operand2;
+                      zero_flag=|alu_out;
+                      negative_flag=alu_out[31];
+                      carry_flag=1'bx;
+                      overflow_flag=overflow_in;
+                      end
+                      
+            4'b1001 : begin     // only flags updated result not written back
+                      alu_out=operand1 ^ operand2;
+                      zero_flag=|alu_out;
+                      negative_flag=alu_out[31];
+                      carry_flag=1'bx;
+                      overflow_flag=overflow_in;
+                      end 
+                      
+            4'b1010 : begin     // only flags updated result not written back
+                      alu_out_33bits=operand1 - operand2;
+                      alu_out=alu_out_33bits[31:0];
+                      zero_flag=|alu_out;
+                      carry_flag=alu_out_33bits[32];
+                      overflow_flag=alu_out_33bits[32];        // think about it
+                      negative_flag=alu_out[31];
+                      end
+                      
+            4'b1011 : begin     // only flags updated result not written back
+                      alu_out_33bits=operand1 + operand2;
+                      alu_out=alu_out_33bits[31:0];
+                      zero_flag=|alu_out;
+                      carry_flag=alu_out_33bits[32];
+                      overflow_flag=alu_out_33bits[32];        // think about it
+                      negative_flag=alu_out[31];
+                      end
+                      
+            4'b1100 : begin
+                      alu_out=operand1 | operand2;
+                      zero_flag=|alu_out;
+                      negative_flag=alu_out[31];
+                      carry_flag=1'bx;
+                      overflow_flag=overflow_in;
+                      end
+                      
+            4'b1101 : begin
+                      alu_out=operand2;
+                      zero_flag=|alu_out;
+                      negative_flag=alu_out[31];
+                      carry_flag=1'bx;
+                      overflow_flag=overflow_in;
+                      end
+                      
+            4'b1110 : begin
+                      alu_out=operand1 & ~operand2;
+                      zero_flag=|alu_out;
+                      negative_flag=alu_out[31];
+                      carry_flag=1'bx;
+                      overflow_flag=overflow_in;
+                      end
+                      
+            4'b1111 : begin
+                      alu_out=~operand2;
+                      zero_flag=|alu_out;
+                      negative_flag=alu_out[31];
+                      carry_flag=1'bx;
+                      overflow_flag=overflow_in;
+                      end
+                      
+                      
+        endcase
+      end
+      /*
+    else
+      begin
+        alu_out=alu_out;
+        zero_flag=|alu_out;
+        negative_flag=negative_flag;
+        carry_flag=carry_flag;
+        overflow_flag=overflow_flag;
+      end
+      */ // for combinational... removing alu_en
+      
+  //  end   // end used for if(alu_en)
+    
+    
+    
+endmodule
+                      
+                      
+                      
+            
+                                            
+                      
+  
+  
+ 

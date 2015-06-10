@@ -1,0 +1,22 @@
+{D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v} {1 {vlog -work work {D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module mux_2x1_32bit
+
+Top level modules:
+	mux_2x1_32bit
+
+} {} {}} {D:/intern project/mux_2x1_32bit/mux_2x1_32bit_tb.v} {1 {vlog -work work {D:/intern project/mux_2x1_32bit/mux_2x1_32bit_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module mux_2x1_32bit_tb
+
+Top level modules:
+	mux_2x1_32bit_tb
+
+} {} {}} {D:/intern project/mux_structural/mux_2x1_1bit.v} {1 {vlog -work work {D:/intern project/mux_structural/mux_2x1_1bit.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module mux_2x1_1bit
+
+Top level modules:
+	mux_2x1_1bit
+
+} {} {}}

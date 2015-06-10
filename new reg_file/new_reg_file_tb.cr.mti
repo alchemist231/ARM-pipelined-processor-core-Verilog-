@@ -1,0 +1,15 @@
+{D:/intern project/new reg_file/new_reg_file_tb.v} {1 {vlog -work work {D:/intern project/new reg_file/new_reg_file_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module new_reg_file_tb
+
+Top level modules:
+	new_reg_file_tb
+
+} {} {}} {D:/intern project/new_unpipelined/reg_file.v} {1 {vlog -work work {D:/intern project/new_unpipelined/reg_file.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}}

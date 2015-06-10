@@ -1,0 +1,24 @@
+{D:/intern project/New folder (2)/mem_wb_pipeline_reg.v} {1 {vlog -work work {D:/intern project/New folder (2)/mem_wb_pipeline_reg.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module mem_wb_pipeline_reg
+
+Top level modules:
+	mem_wb_pipeline_reg
+
+} {} {}} {D:/intern project/New folder (2)/pipeline_tb.v} {2 {vlog -work work {D:/intern project/New folder (2)/pipeline_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module pipeline_tb
+** Warning: D:/intern project/New folder (2)/pipeline_tb.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	pipeline_tb
+
+} {} {}} {D:/intern project/new_unpipelined/alu_mem_pipeline_reg.v} {1 {vlog -work work {D:/intern project/new_unpipelined/alu_mem_pipeline_reg.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module alu_mem_pipeline_reg
+
+Top level modules:
+	alu_mem_pipeline_reg
+
+} {} {}}

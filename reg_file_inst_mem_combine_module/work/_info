@@ -1,0 +1,69 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vcombine_tb_reg_file_inst_mem
+Z1 !s110 1371798678
+!i10b 1
+!s100 <ebk;;^:@VkRnnH=Fi79o1
+I`Jj[M4@KVc?Ed@D_^3ULX0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dD:/intern project/reg_file_inst_mem_combine_module
+w1371798676
+8D:/intern project/reg_file_inst_mem_combine_module/combine_tb_reg_file_inst_mem.v
+FD:/intern project/reg_file_inst_mem_combine_module/combine_tb_reg_file_inst_mem.v
+L0 1
+Z4 OP;L;10.2b;57
+r1
+!s85 0
+31
+!s108 1371798678.475000
+!s107 D:/intern project/reg_file_inst_mem_combine_module/combine_tb_reg_file_inst_mem.v|
+!s90 -reportprogress|300|-work|work|D:/intern project/reg_file_inst_mem_combine_module/combine_tb_reg_file_inst_mem.v|
+!s101 -O0
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+vinstruction_memory
+R1
+Z6 !s100 3eI:J<2PEmeYb;m;jekm32
+Z7 I^=2Eb1W8Lk0DIT?CEf>e<2
+R2
+R3
+Z8 w1371798446
+Z9 8C:/Modeltech_pe_edu_10.2b/examples/instruction_memory.v
+Z10 FC:/Modeltech_pe_edu_10.2b/examples/instruction_memory.v
+L0 1
+R4
+r1
+31
+Z11 !s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.2b/examples/instruction_memory.v|
+R5
+!i10b 1
+!s85 0
+Z12 !s108 1371798678.275000
+Z13 !s107 C:/Modeltech_pe_edu_10.2b/examples/instruction_memory.v|
+!s101 -O0
+vregister_32
+Z14 !s100 h?0O>lX>NQ8:2_knVNHM`3
+Z15 IM]b>c:nn]nT=FW4<lS<OY3
+R2
+R3
+Z16 w1371798444
+Z17 8D:/intern project/register/register_32.v
+Z18 FD:/intern project/register/register_32.v
+L0 1
+R4
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|D:/intern project/register/register_32.v|
+R5
+R1
+Z20 !s108 1371798678.075000
+Z21 !s107 D:/intern project/register/register_32.v|
+!i10b 1
+!s85 0
+!s101 -O0

@@ -1,0 +1,1499 @@
+# vsim -do vsim.do -c -pli vpi_test.sl top 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading ./vpi_test.sl
+# Loading work.top(fast)
+# Loading work.dff(fast)
+# do vsim.do 
+# 
+# ===========================
+# Results of Design Traversal
+# ===========================
+# 
+# Module name is top.
+#   Type           is vpiModule (32).
+#   Cell Instance  is FALSE.
+#   Def File       is top.v.
+#   Def Name       is top.
+#   Def Delay Mode is 1 (vpiDelayModeNone).
+#   File           is top.v.
+#   Full Name      is top.
+#   Protected      is FALSE.
+#   Time Precision is -9 (1 ns).
+#   Time Unit      is -9 (1 ns).
+#   Top Module     is TRUE.
+# 
+#   Port name is ain.
+#     Type          is vpiPort (44).
+#     Direction     is vpiInout.
+#     Port Index    is 0.
+#     Line No       is 13.
+#     File          is top.v.
+#     Scalar        is FALSE.
+#     Size          is 4.
+#     Vector        is TRUE.
+#     Module        is top of type vpiModule.
+# 
+#   Port Bit #1: ----------
+#     Type          is vpiPortBit (45).
+#     Direction     is vpiInout.
+#     Line No       is 13.
+#     File          is top.v.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Parent        is ain of type vpiPort (44).
+# 
+#   Port Bit #2: ----------
+#     Type          is vpiPortBit (45).
+#     Direction     is vpiInout.
+#     Line No       is 13.
+#     File          is top.v.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Parent        is ain of type vpiPort (44).
+# 
+#   Port Bit #3: ----------
+#     Type          is vpiPortBit (45).
+#     Direction     is vpiInout.
+#     Line No       is 13.
+#     File          is top.v.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Parent        is ain of type vpiPort (44).
+# 
+#   Port Bit #4: ----------
+#     Type          is vpiPortBit (45).
+#     Direction     is vpiInout.
+#     Line No       is 13.
+#     File          is top.v.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Parent        is ain of type vpiPort (44).
+# 
+#   Net name is ain.
+#     Type          is vpiNet (36).
+#     Line No       is 14.
+#     File          is top.v.
+#     Full Name     is top.ain.
+#     Net Type      is vpiWire.
+#     Scalar        is FALSE.
+#     Size          is 4.
+#     Vector        is TRUE.
+#     Left  Range   is 3.
+#     Right Range   is 0.
+#     Module        is top of type vpiModule (32).
+# 
+#   Net Bit #1: ----------
+# 
+#   Net name is ain[3].
+#     Type          is vpiNetBit (37).
+#     Line No       is 14.
+#     File          is top.v.
+#     Full Name     is top.ain[3].
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 3.
+#     Parent        is ain of type vpiNet (36).
+# 
+#   Net Bit #2: ----------
+# 
+#   Net name is ain[2].
+#     Type          is vpiNetBit (37).
+#     Line No       is 14.
+#     File          is top.v.
+#     Full Name     is top.ain[2].
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 2.
+#     Parent        is ain of type vpiNet (36).
+# 
+#   Net Bit #3: ----------
+# 
+#   Net name is ain[1].
+#     Type          is vpiNetBit (37).
+#     Line No       is 14.
+#     File          is top.v.
+#     Full Name     is top.ain[1].
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 1.
+#     Parent        is ain of type vpiNet (36).
+# 
+#   Net Bit #4: ----------
+# 
+#   Net name is ain[0].
+#     Type          is vpiNetBit (37).
+#     Line No       is 14.
+#     File          is top.v.
+#     Full Name     is top.ain[0].
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 0.
+#     Parent        is ain of type vpiNet (36).
+# 
+#   Net name is wire01.
+#     Type          is vpiNet (36).
+#     Line No       is 19.
+#     File          is top.v.
+#     Full Name     is top.wire01.
+#     Net Type      is vpiTri.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is top of type vpiModule (32).
+# 
+#   Net name is wire02.
+#     Type          is vpiNet (36).
+#     Line No       is 20.
+#     File          is top.v.
+#     Full Name     is top.wire02.
+#     Net Type      is vpiWand.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is top of type vpiModule (32).
+# 
+#   Net name is qval.
+#     Type          is vpiNet (36).
+#     Line No       is 118.
+#     File          is top.v.
+#     Full Name     is top.qval.
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is top of type vpiModule (32).
+# 
+#   Net name is udp_out.
+#     Type          is vpiNet (36).
+#     Line No       is 127.
+#     File          is top.v.
+#     Full Name     is top.udp_out.
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is top of type vpiModule (32).
+# 
+#   Net name is muxout.
+#     Type          is vpiNet (36).
+#     Line No       is 131.
+#     File          is top.v.
+#     Full Name     is top.muxout.
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 22.
+#     File          is top.v.
+#     Full Name     is top.sreg.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is areg.
+#     Type          is vpiReg (48).
+#     Line No       is 23.
+#     File          is top.v.
+#     Full Name     is top.areg.
+#     Scalar        is FALSE.
+#     Size          is 3.
+#     Vector        is TRUE.
+#     Left  Range   is 4.
+#     Right Range   is 2.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg Bit #1: ----------
+# 
+#   Reg name is areg[4].
+#     Type          is vpiRegBit (49).
+#     Line No       is 23.
+#     File          is top.v.
+#     Full Name     is top.areg[4].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 4.
+#     Parent        is areg of type vpiReg (48).
+# 
+#   Reg Bit #2: ----------
+# 
+#   Reg name is areg[3].
+#     Type          is vpiRegBit (49).
+#     Line No       is 23.
+#     File          is top.v.
+#     Full Name     is top.areg[3].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 3.
+#     Parent        is areg of type vpiReg (48).
+# 
+#   Reg Bit #3: ----------
+# 
+#   Reg name is areg[2].
+#     Type          is vpiRegBit (49).
+#     Line No       is 23.
+#     File          is top.v.
+#     Full Name     is top.areg[2].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 2.
+#     Parent        is areg of type vpiReg (48).
+# 
+#   Reg name is dval.
+#     Type          is vpiReg (48).
+#     Line No       is 119.
+#     File          is top.v.
+#     Full Name     is top.dval.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is clear.
+#     Type          is vpiReg (48).
+#     Line No       is 120.
+#     File          is top.v.
+#     Full Name     is top.clear.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is preset.
+#     Type          is vpiReg (48).
+#     Line No       is 121.
+#     File          is top.v.
+#     Full Name     is top.preset.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is clock.
+#     Type          is vpiReg (48).
+#     Line No       is 122.
+#     File          is top.v.
+#     Full Name     is top.clock.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is control.
+#     Type          is vpiReg (48).
+#     Line No       is 126.
+#     File          is top.v.
+#     Full Name     is top.control.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is din.
+#     Type          is vpiReg (48).
+#     Line No       is 126.
+#     File          is top.v.
+#     Full Name     is top.din.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is ctl.
+#     Type          is vpiReg (48).
+#     Line No       is 132.
+#     File          is top.v.
+#     Full Name     is top.ctl.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is dA.
+#     Type          is vpiReg (48).
+#     Line No       is 132.
+#     File          is top.v.
+#     Full Name     is top.dA.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is dB.
+#     Type          is vpiReg (48).
+#     Line No       is 132.
+#     File          is top.v.
+#     Full Name     is top.dB.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 22.
+#     File          is top.v.
+#     Full Name     is top.sreg.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is areg.
+#     Type          is vpiReg (48).
+#     Line No       is 23.
+#     File          is top.v.
+#     Full Name     is top.areg.
+#     Size          is 3.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is treg.
+#     Type          is vpiTimeVar (63).
+#     Line No       is 24.
+#     File          is top.v.
+#     Full Name     is top.treg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is ireg.
+#     Type          is vpiIntegerVar (25).
+#     Line No       is 25.
+#     File          is top.v.
+#     Full Name     is top.ireg.
+#     Size          is 32.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is rreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 26.
+#     File          is top.v.
+#     Full Name     is top.rreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is rtreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 27.
+#     File          is top.v.
+#     Full Name     is top.rtreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is msreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 29.
+#     File          is top.v.
+#     Full Name     is top.msreg.
+#     Size          is 3.
+#     Array         is TRUE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is mareg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 30.
+#     File          is top.v.
+#     Full Name     is top.mareg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is mtreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 31.
+#     File          is top.v.
+#     Full Name     is top.mtreg.
+#     Size          is 4.
+#     Array         is TRUE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is mireg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 32.
+#     File          is top.v.
+#     Full Name     is top.mireg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is dval.
+#     Type          is vpiReg (48).
+#     Line No       is 119.
+#     File          is top.v.
+#     Full Name     is top.dval.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is clear.
+#     Type          is vpiReg (48).
+#     Line No       is 120.
+#     File          is top.v.
+#     Full Name     is top.clear.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is preset.
+#     Type          is vpiReg (48).
+#     Line No       is 121.
+#     File          is top.v.
+#     Full Name     is top.preset.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is clock.
+#     Type          is vpiReg (48).
+#     Line No       is 122.
+#     File          is top.v.
+#     Full Name     is top.clock.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is control.
+#     Type          is vpiReg (48).
+#     Line No       is 126.
+#     File          is top.v.
+#     Full Name     is top.control.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is din.
+#     Type          is vpiReg (48).
+#     Line No       is 126.
+#     File          is top.v.
+#     Full Name     is top.din.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is ctl.
+#     Type          is vpiReg (48).
+#     Line No       is 132.
+#     File          is top.v.
+#     Full Name     is top.ctl.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is dA.
+#     Type          is vpiReg (48).
+#     Line No       is 132.
+#     File          is top.v.
+#     Full Name     is top.dA.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is dB.
+#     Type          is vpiReg (48).
+#     Line No       is 132.
+#     File          is top.v.
+#     Full Name     is top.dB.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is top of type vpiModule (32).
+#     Module        is top of type vpiModule (32).
+# 
+# Internal scope is some_task of type vpiTask (59).
+# 
+#   Reg name is a.
+#     Type          is vpiReg (48).
+#     Line No       is 37.
+#     File          is top.v.
+#     Full Name     is top.some_task.a.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is b.
+#     Type          is vpiReg (48).
+#     Line No       is 38.
+#     File          is top.v.
+#     Full Name     is top.some_task.b.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is c.
+#     Type          is vpiReg (48).
+#     Line No       is 39.
+#     File          is top.v.
+#     Full Name     is top.some_task.c.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is t_sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 41.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_sreg.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is t_areg.
+#     Type          is vpiReg (48).
+#     Line No       is 42.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_areg.
+#     Scalar        is FALSE.
+#     Size          is 4.
+#     Vector        is TRUE.
+#     Left  Range   is -2.
+#     Right Range   is 1.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg Bit #1: ----------
+# 
+#   Reg name is t_areg[-2].
+#     Type          is vpiRegBit (49).
+#     Line No       is 42.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_areg[-2].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is -2.
+#     Parent        is t_areg of type vpiReg (48).
+# 
+#   Reg Bit #2: ----------
+# 
+#   Reg name is t_areg[-1].
+#     Type          is vpiRegBit (49).
+#     Line No       is 42.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_areg[-1].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is -1.
+#     Parent        is t_areg of type vpiReg (48).
+# 
+#   Reg Bit #3: ----------
+# 
+#   Reg name is t_areg[0].
+#     Type          is vpiRegBit (49).
+#     Line No       is 42.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_areg[0].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 0.
+#     Parent        is t_areg of type vpiReg (48).
+# 
+#   Reg Bit #4: ----------
+# 
+#   Reg name is t_areg[1].
+#     Type          is vpiRegBit (49).
+#     Line No       is 42.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_areg[1].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 1.
+#     Parent        is t_areg of type vpiReg (48).
+# 
+#   Variable name is a.
+#     Type          is vpiReg (48).
+#     Line No       is 37.
+#     File          is top.v.
+#     Full Name     is top.some_task.a.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is b.
+#     Type          is vpiReg (48).
+#     Line No       is 38.
+#     File          is top.v.
+#     Full Name     is top.some_task.b.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is c.
+#     Type          is vpiReg (48).
+#     Line No       is 39.
+#     File          is top.v.
+#     Full Name     is top.some_task.c.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 41.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_sreg.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_areg.
+#     Type          is vpiReg (48).
+#     Line No       is 42.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_areg.
+#     Size          is 4.
+#     Array         is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_treg.
+#     Type          is vpiTimeVar (63).
+#     Line No       is 43.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_treg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_ireg.
+#     Type          is vpiIntegerVar (25).
+#     Line No       is 44.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_ireg.
+#     Size          is 32.
+#     Array         is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_rreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 45.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_rreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_rtreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 46.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_rtreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_msreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 48.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_msreg.
+#     Size          is 3.
+#     Array         is TRUE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_mareg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 49.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_mareg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_mtreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 50.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_mtreg.
+#     Size          is 4.
+#     Array         is TRUE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is t_mireg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 51.
+#     File          is top.v.
+#     Full Name     is top.some_task.t_mireg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is some_task of type vpiTask (59).
+#     Module        is top of type vpiModule (32).
+# 
+# Internal scope is invert of type vpiFunction (20).
+# 
+#   Reg name is invert.
+#     Type          is vpiReg (48).
+#     Line No       is 61.
+#     File          is top.v.
+#     Full Name     is top.invert.invert.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is i1.
+#     Type          is vpiReg (48).
+#     Line No       is 62.
+#     File          is top.v.
+#     Full Name     is top.invert.i1.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is f_sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 64.
+#     File          is top.v.
+#     Full Name     is top.invert.f_sreg.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is f_areg.
+#     Type          is vpiReg (48).
+#     Line No       is 65.
+#     File          is top.v.
+#     Full Name     is top.invert.f_areg.
+#     Scalar        is FALSE.
+#     Size          is 5.
+#     Vector        is TRUE.
+#     Left  Range   is 4.
+#     Right Range   is 0.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg Bit #1: ----------
+# 
+#   Reg name is f_areg[4].
+#     Type          is vpiRegBit (49).
+#     Line No       is 65.
+#     File          is top.v.
+#     Full Name     is top.invert.f_areg[4].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 4.
+#     Parent        is f_areg of type vpiReg (48).
+# 
+#   Reg Bit #2: ----------
+# 
+#   Reg name is f_areg[3].
+#     Type          is vpiRegBit (49).
+#     Line No       is 65.
+#     File          is top.v.
+#     Full Name     is top.invert.f_areg[3].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 3.
+#     Parent        is f_areg of type vpiReg (48).
+# 
+#   Reg Bit #3: ----------
+# 
+#   Reg name is f_areg[2].
+#     Type          is vpiRegBit (49).
+#     Line No       is 65.
+#     File          is top.v.
+#     Full Name     is top.invert.f_areg[2].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 2.
+#     Parent        is f_areg of type vpiReg (48).
+# 
+#   Reg Bit #4: ----------
+# 
+#   Reg name is f_areg[1].
+#     Type          is vpiRegBit (49).
+#     Line No       is 65.
+#     File          is top.v.
+#     Full Name     is top.invert.f_areg[1].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 1.
+#     Parent        is f_areg of type vpiReg (48).
+# 
+#   Reg Bit #5: ----------
+# 
+#   Reg name is f_areg[0].
+#     Type          is vpiRegBit (49).
+#     Line No       is 65.
+#     File          is top.v.
+#     Full Name     is top.invert.f_areg[0].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 0.
+#     Parent        is f_areg of type vpiReg (48).
+# 
+#   Variable name is invert.
+#     Type          is vpiReg (48).
+#     Line No       is 61.
+#     File          is top.v.
+#     Full Name     is top.invert.invert.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is i1.
+#     Type          is vpiReg (48).
+#     Line No       is 62.
+#     File          is top.v.
+#     Full Name     is top.invert.i1.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 64.
+#     File          is top.v.
+#     Full Name     is top.invert.f_sreg.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_areg.
+#     Type          is vpiReg (48).
+#     Line No       is 65.
+#     File          is top.v.
+#     Full Name     is top.invert.f_areg.
+#     Size          is 5.
+#     Array         is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_treg.
+#     Type          is vpiTimeVar (63).
+#     Line No       is 66.
+#     File          is top.v.
+#     Full Name     is top.invert.f_treg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_ireg.
+#     Type          is vpiIntegerVar (25).
+#     Line No       is 67.
+#     File          is top.v.
+#     Full Name     is top.invert.f_ireg.
+#     Size          is 32.
+#     Array         is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_rreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 68.
+#     File          is top.v.
+#     Full Name     is top.invert.f_rreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_rtreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 69.
+#     File          is top.v.
+#     Full Name     is top.invert.f_rtreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_msreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 71.
+#     File          is top.v.
+#     Full Name     is top.invert.f_msreg.
+#     Size          is 3.
+#     Array         is TRUE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_mareg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 72.
+#     File          is top.v.
+#     Full Name     is top.invert.f_mareg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_mtreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 73.
+#     File          is top.v.
+#     Full Name     is top.invert.f_mtreg.
+#     Size          is 4.
+#     Array         is TRUE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is f_mireg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 74.
+#     File          is top.v.
+#     Full Name     is top.invert.f_mireg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is invert of type vpiFunction (20).
+#     Module        is top of type vpiModule (32).
+# 
+# Internal scope is startup of type vpiNamedBegin (33).
+# 
+#   Reg name is nb_sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 85.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_sreg.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is nb_areg.
+#     Type          is vpiReg (48).
+#     Line No       is 86.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_areg.
+#     Scalar        is FALSE.
+#     Size          is 3.
+#     Vector        is TRUE.
+#     Left  Range   is 1.
+#     Right Range   is 3.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg Bit #1: ----------
+# 
+#   Reg name is nb_areg[1].
+#     Type          is vpiRegBit (49).
+#     Line No       is 86.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_areg[1].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 1.
+#     Parent        is nb_areg of type vpiReg (48).
+# 
+#   Reg Bit #2: ----------
+# 
+#   Reg name is nb_areg[2].
+#     Type          is vpiRegBit (49).
+#     Line No       is 86.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_areg[2].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 2.
+#     Parent        is nb_areg of type vpiReg (48).
+# 
+#   Reg Bit #3: ----------
+# 
+#   Reg name is nb_areg[3].
+#     Type          is vpiRegBit (49).
+#     Line No       is 86.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_areg[3].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 3.
+#     Parent        is nb_areg of type vpiReg (48).
+# 
+#   Variable name is nb_sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 85.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_sreg.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is nb_areg.
+#     Type          is vpiReg (48).
+#     Line No       is 86.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_areg.
+#     Size          is 3.
+#     Array         is FALSE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is nb_treg.
+#     Type          is vpiTimeVar (63).
+#     Line No       is 87.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_treg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is nb_ireg.
+#     Type          is vpiIntegerVar (25).
+#     Line No       is 88.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_ireg.
+#     Size          is 32.
+#     Array         is FALSE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is nb_rreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 89.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_rreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is nb_rtreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 90.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_rtreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is nb_msreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 92.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_msreg.
+#     Size          is 3.
+#     Array         is TRUE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is nb_mareg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 93.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_mareg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is nb_mtreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 94.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_mtreg.
+#     Size          is 4.
+#     Array         is TRUE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is nb_mireg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 95.
+#     File          is top.v.
+#     Full Name     is top.startup.nb_mireg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is startup of type vpiNamedBegin (33).
+#     Module        is top of type vpiModule (32).
+# 
+# Internal scope is fork_in_road of type vpiNamedFork (35).
+# 
+#   Reg name is k_sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 104.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_sreg.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg name is k_areg.
+#     Type          is vpiReg (48).
+#     Line No       is 105.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_areg.
+#     Scalar        is FALSE.
+#     Size          is 2.
+#     Vector        is TRUE.
+#     Left  Range   is 6.
+#     Right Range   is 5.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Reg Bit #1: ----------
+# 
+#   Reg name is k_areg[6].
+#     Type          is vpiRegBit (49).
+#     Line No       is 105.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_areg[6].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 6.
+#     Parent        is k_areg of type vpiReg (48).
+# 
+#   Reg Bit #2: ----------
+# 
+#   Reg name is k_areg[5].
+#     Type          is vpiRegBit (49).
+#     Line No       is 105.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_areg[5].
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Index value   is 5.
+#     Parent        is k_areg of type vpiReg (48).
+# 
+#   Variable name is k_sreg.
+#     Type          is vpiReg (48).
+#     Line No       is 104.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_sreg.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is k_areg.
+#     Type          is vpiReg (48).
+#     Line No       is 105.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_areg.
+#     Size          is 2.
+#     Array         is FALSE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is k_treg.
+#     Type          is vpiTimeVar (63).
+#     Line No       is 106.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_treg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is k_ireg.
+#     Type          is vpiIntegerVar (25).
+#     Line No       is 107.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_ireg.
+#     Size          is 32.
+#     Array         is FALSE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is k_rreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 108.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_rreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is k_rtreg.
+#     Type          is vpiRealVar (47).
+#     Line No       is 109.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_rtreg.
+#     Size          is 64.
+#     Array         is FALSE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is k_msreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 111.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_msreg.
+#     Size          is 3.
+#     Array         is TRUE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is k_mareg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 112.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_mareg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is k_mtreg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 113.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_mtreg.
+#     Size          is 4.
+#     Array         is TRUE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+#   Variable name is k_mireg.
+#     Type          is vpiArrayVar (116).
+#     Line No       is 114.
+#     File          is top.v.
+#     Full Name     is top.fork_in_road.k_mireg.
+#     Size          is 2.
+#     Array         is TRUE.
+#     Scope         is fork_in_road of type vpiNamedFork (35).
+#     Module        is top of type vpiModule (32).
+# 
+# Internal scope is dff_inst of type vpiModule (32).
+# 
+#   Reg name is q.
+#     Type          is vpiReg (48).
+#     Line No       is 14.
+#     File          is dff.v.
+#     Full Name     is top.dff_inst.q.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is dff_inst of type vpiModule (32).
+#     Module        is dff_inst of type vpiModule (32).
+# 
+#   Variable name is q.
+#     Type          is vpiReg (48).
+#     Line No       is 14.
+#     File          is dff.v.
+#     Full Name     is top.dff_inst.q.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is dff_inst of type vpiModule (32).
+#     Module        is dff_inst of type vpiModule (32).
+# 
+# Module name is dff_inst.
+#   Type           is vpiModule (32).
+#   Cell Instance  is TRUE.
+#   Def File       is dff.v.
+#   Def Name       is dff.
+#   Def Delay Mode is 1 (vpiDelayModeNone).
+#   File           is top.v.
+#   Full Name      is top.dff_inst.
+#   Protected      is FALSE.
+#   Time Precision is -12 (1 ps).
+#   Time Unit      is -9 (1 ns).
+#   Top Module     is FALSE.
+#   Module         is top of type vpiModule (32).
+# 
+#   Port name is q.
+#     Type          is vpiPort (44).
+#     Direction     is vpiOutput.
+#     Port Index    is 0.
+#     Line No       is 13.
+#     File          is dff.v.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is dff_inst of type vpiModule.
+# 
+#   Port name is d.
+#     Type          is vpiPort (44).
+#     Direction     is vpiInput.
+#     Port Index    is 1.
+#     Line No       is 13.
+#     File          is dff.v.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is dff_inst of type vpiModule.
+# 
+#   Port name is clear.
+#     Type          is vpiPort (44).
+#     Direction     is vpiInput.
+#     Port Index    is 2.
+#     Line No       is 13.
+#     File          is dff.v.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is dff_inst of type vpiModule.
+# 
+#   Port name is preset.
+#     Type          is vpiPort (44).
+#     Direction     is vpiInput.
+#     Port Index    is 3.
+#     Line No       is 13.
+#     File          is dff.v.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is dff_inst of type vpiModule.
+# 
+#   Port name is clock.
+#     Type          is vpiPort (44).
+#     Direction     is vpiInput.
+#     Port Index    is 4.
+#     Line No       is 13.
+#     File          is dff.v.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is dff_inst of type vpiModule.
+# 
+#   Net name is d.
+#     Type          is vpiNet (36).
+#     Line No       is 15.
+#     File          is dff.v.
+#     Full Name     is top.dff_inst.d.
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is dff_inst of type vpiModule (32).
+# 
+#   Net name is clear.
+#     Type          is vpiNet (36).
+#     Line No       is 15.
+#     File          is dff.v.
+#     Full Name     is top.dff_inst.clear.
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is dff_inst of type vpiModule (32).
+# 
+#   Net name is preset.
+#     Type          is vpiNet (36).
+#     Line No       is 15.
+#     File          is dff.v.
+#     Full Name     is top.dff_inst.preset.
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is dff_inst of type vpiModule (32).
+# 
+#   Net name is clock.
+#     Type          is vpiNet (36).
+#     Line No       is 15.
+#     File          is dff.v.
+#     Full Name     is top.dff_inst.clock.
+#     Net Type      is vpiWire.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Module        is dff_inst of type vpiModule (32).
+# 
+#   Reg name is q.
+#     Type          is vpiReg (48).
+#     Line No       is 14.
+#     File          is dff.v.
+#     Full Name     is top.dff_inst.q.
+#     Scalar        is TRUE.
+#     Size          is 1.
+#     Vector        is FALSE.
+#     Scope         is dff_inst of type vpiModule (32).
+#     Module        is dff_inst of type vpiModule (32).
+# 
+#   Variable name is q.
+#     Type          is vpiReg (48).
+#     Line No       is 14.
+#     File          is dff.v.
+#     Full Name     is top.dff_inst.q.
+#     Size          is 1.
+#     Array         is FALSE.
+#     Scope         is dff_inst of type vpiModule (32).
+#     Module        is dff_inst of type vpiModule (32).

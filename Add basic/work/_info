@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/intern project
+!i10d 8192
+!i10e 25
+!i10f 100
+vadd
+!s110 1371288484
+!i10b 1
+!s100 Z@fz`[NLAIoHTHA33;AO:0
+IPPg48_19e?P=OgOVE3zz81
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dD:/intern project/Add basic
+w1371288438
+Z3 8D:/intern project/Add basic/add.v
+Z4 FD:/intern project/Add basic/add.v
+L0 1
+Z5 OP;L;10.2b;57
+r1
+!s85 0
+31
+!s108 1371288483.953000
+!s107 D:/intern project/Add basic/add.v|
+Z6 !s90 -reportprogress|300|-work|work|D:/intern project/Add basic/add.v|
+!s101 -O0
+Z7 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+vadd_tb
+Z8 !s100 ^S[A0`:8;n;IYS8mD]VJj1
+Z9 I`Z]E]:8oBAYiUanXlo:cn0
+R1
+R2
+Z10 w1371288100
+Z11 8D:/intern project/Add basic/add_tb.v
+Z12 FD:/intern project/Add basic/add_tb.v
+L0 1
+R5
+r1
+31
+Z13 !s90 -reportprogress|300|-work|work|D:/intern project/Add basic/add_tb.v|
+R7
+Z14 !s110 1371288483
+!i10b 1
+!s85 0
+Z15 !s108 1371288483.766000
+Z16 !s107 D:/intern project/Add basic/add_tb.v|
+!s101 -O0

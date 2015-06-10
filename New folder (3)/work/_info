@@ -1,0 +1,29 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vultra_new_reg_file
+!s110 1373407999
+!i10b 1
+!s100 036HN9lML5N6RM6n4Cl8N0
+IIzFClaUZ2@7AogDcTD[@i2
+V`JN@9S9cnhjKRR_L]QIcM3
+dD:/intern project/New folder (3)
+w1373407998
+8D:/intern project/New folder (3)/ultra_new_reg_file.v
+FD:/intern project/New folder (3)/ultra_new_reg_file.v
+L0 1
+Z1 OP;L;10.2b;57
+r1
+!s85 0
+31
+!s108 1373407999.402000
+!s107 D:/intern project/New folder (3)/ultra_new_reg_file.v|
+!s90 -reportprogress|300|-work|work|D:/intern project/New folder (3)/ultra_new_reg_file.v|
+!s101 -O0
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0

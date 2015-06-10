@@ -1,0 +1,91 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vALU
+Z1 !s100 6D=JP5TU37Ho]c?k0^cI63
+Z2 I[]`UMNz0fJTk`OCK8W1H90
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 dD:/intern project
+Z5 w1371799424
+Z6 8D:/intern project/ALU.v
+Z7 FD:/intern project/ALU.v
+L0 1
+Z8 OP;L;10.2b;57
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/intern project/ALU.v|
+Z10 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z11 n@a@l@u
+Z12 !s110 1371799486
+!i10b 1
+!s85 0
+Z13 !s108 1371799486.066000
+Z14 !s107 D:/intern project/ALU.v|
+!s101 -O0
+vALU_tb
+R12
+!i10b 1
+!s100 80kWdh`d[CRFX;;gKnB=F1
+I9a59FF9Rk83E:;H3gHa>]0
+R3
+R4
+w1371799484
+Z15 8D:/intern project/ALU_tb.v
+Z16 FD:/intern project/ALU_tb.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1371799486.256000
+!s107 D:/intern project/ALU_tb.v|
+Z17 !s90 -reportprogress|300|-work|work|D:/intern project/ALU_tb.v|
+!s101 -O0
+R10
+Z18 n@a@l@u_tb
+vand1
+Z19 !s100 B[OP];G9NY_4Dl_GJKi8D3
+Z20 IU>nhJC;:>;]hnd1UeVM`^2
+R3
+R4
+Z21 w1371123709
+Z22 8D:/intern project/top.v
+Z23 FD:/intern project/top.v
+L0 1
+R8
+r1
+31
+Z24 !s90 -reportprogress|300|-work|work|D:/intern project/top.v|
+R10
+Z25 !s110 1371128159
+Z26 !s108 1371128158.706000
+Z27 !s107 D:/intern project/top.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vand_tb
+R25
+Z28 !s100 Sz]H5R9PUBkkz;@hl0T`k3
+Z29 IOJl6GILZn]:@`V=4e@nI23
+R3
+R4
+Z30 w1371124607
+Z31 8D:/intern project/and_tb.v
+Z32 FD:/intern project/and_tb.v
+L0 1
+R8
+r1
+31
+Z33 !s90 -reportprogress|300|-work|work|D:/intern project/and_tb.v|
+R10
+Z34 !s108 1371128159.139000
+Z35 !s107 D:/intern project/and_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0

@@ -1,0 +1,69 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vnew_shifter_tb
+Z1 !s110 1373399866
+!i10b 1
+Z2 !s100 aLGhHQT?jl1DX5`;3_Rn<0
+Z3 I?T=GK`ZTU0QABDFGY9QJA3
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dD:/intern project/new_rotater
+Z6 w1373399680
+Z7 8D:/intern project/new_rotater/new_shifter_tb.v
+Z8 FD:/intern project/new_rotater/new_shifter_tb.v
+L0 1
+Z9 OP;L;10.2b;57
+r1
+!s85 0
+31
+!s108 1373399866.638000
+!s107 D:/intern project/new_rotater/new_shifter_tb.v|
+Z10 !s90 -reportprogress|300|-work|work|D:/intern project/new_rotater/new_shifter_tb.v|
+!s101 -O0
+Z11 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+vshifter
+Z12 I?ddn;e0dFacUXY?]Lz<?U3
+R4
+R5
+Z13 w1373399864
+Z14 8D:/intern project/new_rotater/new_shifter.v
+Z15 FD:/intern project/new_rotater/new_shifter.v
+L0 1
+R9
+r1
+31
+Z16 !s90 -reportprogress|300|-work|work|D:/intern project/new_rotater/new_shifter.v|
+R11
+R1
+Z17 !s100 z66eVCmn2jb<<;j>kzh2^3
+Z18 !s108 1373399866.161000
+Z19 !s107 D:/intern project/new_rotater/new_shifter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshifter_rotater
+R1
+Z20 !s100 X@Xd_NNN:;9@DQlgX`F2h1
+Z21 IcD0=fgXD2@1NKdD4m1S=G3
+R4
+R5
+Z22 w1371800190
+Z23 8D:/intern project/shift_rotate/shifter_rotater.v
+Z24 FD:/intern project/shift_rotate/shifter_rotater.v
+L0 1
+R9
+r1
+31
+Z25 !s90 -reportprogress|300|-work|work|D:/intern project/shift_rotate/shifter_rotater.v|
+R11
+!i10b 1
+!s85 0
+Z26 !s108 1373399866.376000
+Z27 !s107 D:/intern project/shift_rotate/shifter_rotater.v|
+!s101 -O0

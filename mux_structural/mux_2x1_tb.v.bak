@@ -1,0 +1,17 @@
+module mux_2x1_1bit_tb();
+  reg in1,in2,sel;
+  wire out;
+  
+  mux_2x1_1bit mux1(in1,in2,sel,out);
+  
+  initial
+  begin
+    in1=0;
+    in2=1;
+    sel=0;
+    #2
+    sel=1;
+    
+  end
+  
+endmodule

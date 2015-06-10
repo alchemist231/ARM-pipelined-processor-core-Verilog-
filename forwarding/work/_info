@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vforwarding_check_logic
+Z1 !s110 1373488319
+Z2 !s100 [D0O5DeA:63iRX[5UBHib1
+Z3 ID>aWlY8iB[6Q=k0F@SA2R0
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dD:/intern project/forwarding
+Z6 w1373487362
+Z7 8D:/intern project/forwarding/forwarding_check_logic.v
+Z8 FD:/intern project/forwarding/forwarding_check_logic.v
+L0 1
+Z9 OP;L;10.2b;57
+r1
+31
+Z10 !s90 -reportprogress|300|-work|work|D:/intern project/forwarding/forwarding_check_logic.v|
+Z11 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z12 !s108 1373488319.568000
+Z13 !s107 D:/intern project/forwarding/forwarding_check_logic.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vforwarding_logic
+Z14 !s100 LNF43Aj_FdaJc<IkaE3eG2
+Z15 Ij5d@Y0lGIaRSMWE?SAei11
+R4
+R5
+Z16 w1373487856
+Z17 8D:/intern project/forwarding/forwarding_logic.v
+Z18 FD:/intern project/forwarding/forwarding_logic.v
+L0 1
+R9
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|D:/intern project/forwarding/forwarding_logic.v|
+R11
+Z20 !s110 1373488318
+Z21 !s108 1373488318.939000
+Z22 !s107 D:/intern project/forwarding/forwarding_logic.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfrwrding_tb
+!s110 1373488320
+!i10b 1
+!s100 fcCA[7@jehNo:Ll]zNokd1
+I6PIm7CCiYdIdi^0Ba`Q1m3
+R4
+R5
+w1373488317
+Z23 8D:/intern project/forwarding/frwrding_tb.v
+Z24 FD:/intern project/forwarding/frwrding_tb.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1373488319.989000
+!s107 D:/intern project/forwarding/frwrding_tb.v|
+Z25 !s90 -reportprogress|300|-work|work|D:/intern project/forwarding/frwrding_tb.v|
+!s101 -O0
+R11
+vmatch_address
+Z26 !s100 9XTNY;1LfFaXcJAk]AaSl3
+Z27 ILl1eGY5KBaDhfP<_Q1B4N0
+R4
+R5
+Z28 w1373479476
+Z29 8D:/intern project/forwarding/match_address.v
+Z30 FD:/intern project/forwarding/match_address.v
+L0 1
+R9
+r1
+31
+Z31 !s90 -reportprogress|300|-work|work|D:/intern project/forwarding/match_address.v|
+R11
+R1
+Z32 !s108 1373488319.136000
+Z33 !s107 D:/intern project/forwarding/match_address.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmatch_address_tb
+R1
+Z34 !s100 AIY@GM;]5=X?O_ZQHDV=S0
+Z35 IZ[>602if<6>EQTlbhW_c11
+R4
+R5
+Z36 w1373481998
+Z37 8D:/intern project/forwarding/match_address_tb.v
+Z38 FD:/intern project/forwarding/match_address_tb.v
+L0 1
+R9
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|D:/intern project/forwarding/match_address_tb.v|
+R11
+Z40 !s108 1373488319.361000
+Z41 !s107 D:/intern project/forwarding/match_address_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmuxing_forwarding_logic
+R1
+Z42 !s100 Cf7Ff=Qch3Pa]Q5ChFjfU3
+Z43 IJYdA3]Y<LRYmGWzz?UjCn3
+R4
+R5
+Z44 w1373480592
+Z45 8D:/intern project/forwarding/muxing_forwarding_logic.v
+Z46 FD:/intern project/forwarding/muxing_forwarding_logic.v
+L0 1
+R9
+r1
+31
+Z47 !s90 -reportprogress|300|-work|work|D:/intern project/forwarding/muxing_forwarding_logic.v|
+R11
+!i10b 1
+!s85 0
+Z48 !s108 1373488319.781000
+Z49 !s107 D:/intern project/forwarding/muxing_forwarding_logic.v|
+!s101 -O0

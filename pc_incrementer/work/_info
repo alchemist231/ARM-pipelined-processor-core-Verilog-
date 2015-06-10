@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vpc_incrementer
+Z1 I2=lgI?DMfVAU[;>D4b1H=3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dD:/intern project/pc_incrementer
+Z4 w1371414291
+Z5 8C:/Modeltech_pe_edu_10.2b/examples/pc_incrementer.v
+Z6 FC:/Modeltech_pe_edu_10.2b/examples/pc_incrementer.v
+L0 1
+Z7 OP;L;10.2b;57
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.2b/examples/pc_incrementer.v|
+Z9 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z10 !s110 1371414296
+!i10b 1
+Z11 !s100 Jmde2=V><ndQC1E@b7_=?3
+!s85 0
+Z12 !s108 1371414296.079000
+Z13 !s107 C:/Modeltech_pe_edu_10.2b/examples/pc_incrementer.v|
+!s101 -O0
+vpc_incrementer_tb
+R10
+!i10b 1
+Z14 !s100 _F32j5^iFR=72P`iz1f;I0
+Z15 IL^9GKnJi9nPF5N9IgSnkl1
+R2
+R3
+Z16 w1371413982
+Z17 8D:/intern project/pc_incrementer/pc_incrementer_tb.v
+Z18 FD:/intern project/pc_incrementer/pc_incrementer_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1371414296.311000
+!s107 D:/intern project/pc_incrementer/pc_incrementer_tb.v|
+Z19 !s90 -reportprogress|300|-work|work|D:/intern project/pc_incrementer/pc_incrementer_tb.v|
+!s101 -O0
+R9

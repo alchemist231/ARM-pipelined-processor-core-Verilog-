@@ -1,0 +1,69 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vmux_2x1_1bit
+Z1 !s110 1371765611
+Z2 !s100 CS6SQFmUP1X]11hVfUJ3j2
+Z3 IZoOe8I4ADD4RXhRYVAPkf2
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dD:/intern project/mux_2x1_32bit
+Z6 w1371762609
+Z7 8D:/intern project/mux_structural/mux_2x1_1bit.v
+Z8 FD:/intern project/mux_structural/mux_2x1_1bit.v
+L0 1
+Z9 OP;L;10.2b;57
+r1
+31
+Z10 !s90 -reportprogress|300|-work|work|D:/intern project/mux_structural/mux_2x1_1bit.v|
+Z11 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+!i10b 1
+!s85 0
+Z12 !s108 1371765611.164000
+Z13 !s107 D:/intern project/mux_structural/mux_2x1_1bit.v|
+!s101 -O0
+vmux_2x1_32bit
+Z14 I?l1l<7VbFLh90JmU:0V3Y3
+R4
+R5
+Z15 w1371765609
+Z16 8D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v
+Z17 FD:/intern project/mux_2x1_32bit/mux_2x1_32bit.v
+L0 1
+R9
+r1
+31
+Z18 !s90 -reportprogress|300|-work|work|D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v|
+R11
+R1
+Z19 !s100 `CjA40i4bX`0IzZ^UT_[31
+Z20 !s108 1371765610.961000
+Z21 !s107 D:/intern project/mux_2x1_32bit/mux_2x1_32bit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux_2x1_32bit_tb
+R1
+!i10b 1
+Z22 !s100 MQ]1>Pl?1@eE53BIi3fRO2
+Z23 IKi3WVz<2dR4FJcDZ6V]oF1
+R4
+R5
+Z24 w1371765540
+Z25 8D:/intern project/mux_2x1_32bit/mux_2x1_32bit_tb.v
+Z26 FD:/intern project/mux_2x1_32bit/mux_2x1_32bit_tb.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1371765611.400000
+!s107 D:/intern project/mux_2x1_32bit/mux_2x1_32bit_tb.v|
+Z27 !s90 -reportprogress|300|-work|work|D:/intern project/mux_2x1_32bit/mux_2x1_32bit_tb.v|
+!s101 -O0
+R11

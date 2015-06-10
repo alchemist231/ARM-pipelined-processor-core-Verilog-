@@ -1,0 +1,27 @@
+C:/Modeltech_pe_edu_10.2b/examples/mux_2x1.v {0 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/mux_2x1.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module mux_2x1
+** Error: C:/Modeltech_pe_edu_10.2b/examples/mux_2x1.v(11): near "EOF": syntax error, unexpected end of source code, expecting ';' or ','
+
+} {4.0 5.0} {}} C:/Modeltech_pe_edu_10.2b/examples/pc_increment_test.v {1 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/pc_increment_test.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module pc_incrementer_tb
+
+Top level modules:
+	pc_incrementer_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.2b/examples/instruction_memory.v {1 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/instruction_memory.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} C:/Modeltech_pe_edu_10.2b/examples/pc_incrementer.v {1 {vlog -work work C:/Modeltech_pe_edu_10.2b/examples/pc_incrementer.v
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module pc_incrementer
+
+Top level modules:
+	pc_incrementer
+
+} {} {}}

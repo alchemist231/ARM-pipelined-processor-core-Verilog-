@@ -1,0 +1,18 @@
+module mux_4x1_32bit(in1,in2,in3,in4,select,out_data);
+  
+  input wire [31:0] in1,in2,in3,in4;
+  input wire [1:0] select;
+  output wire [31:0] out_data;
+  
+  always@(in1,in2,in3,in4,select)
+  begin
+    case(select)
+      2'b00 : out_data=in1;
+      2'b01 : out_data=in2;
+      2'b10 : out_data=in3;
+      2'b11 : out_data=in4;
+    endcase
+  end
+  
+endmodule
+      

@@ -1,0 +1,59 @@
+ 			 Copyright 1991-2013 Mentor Graphics Corporation
+						All Rights Reserved.
+
+	This document contains information that is proprietary to 
+	Mentor Graphics Corporation. The original recipient of this 
+	document may duplicate this document in whole or in part for 
+	internal business purposes only, provided that this entire 
+	notice appears in all copies. In duplicating any part of this 
+	document, the recipient agrees to make every reasonable 
+	effort to prevent the unauthorized use and distribution of the 
+	proprietary information.
+
+	Trademarks that appear in Mentor Graphics product 
+	publications that are not owned by Mentor Graphics are 
+	trademarks of their respective owners.
+
+The purpose of this PLI test example is to illustrate how to traverse
+a design and obtain various information about Verilog objects by using
+PLI functions.
+
+The files are organized as follows:
+
+dff.v               A dff module marked as a cell and with a timescale
+                    different than the top-level module.
+
+expected_results    Test results that should be seen in the transcript
+                    after running vsim.
+
+pli_test.c          The PLI application code.
+
+pli_test.exports    An export file to export symbols for the Windows platform.
+
+prim.v              A UDP of each type (combinational and sequential).
+
+runtest.bat         A script to run the test in a DOS shell on the Windows
+                    platform.
+
+runtest.lnx         A script to run the test on the 32-bit Linux platform.
+
+runtest.lnx64       A script to run the test on the 64-bit Linux platform.
+
+runtest.ss5         A script to run the test on the 32-bit Sun Solaris platform.
+
+runtest.ss5v9       A script to run the test on the 64-bit Sun Solaris platform.
+
+runtest.win         A script to run the test in an MKS shell on the Windows
+                    platform.
+
+runtest_win.do      A do file to run the test from a ModelSim command line
+                    on the Windows platform.
+
+top.v               The top level module containing examples of ports, nets,
+                    registers, variables, scopes, and instances.
+
+vsim.do             A vsim dofile to run the simulation and display results.
+
+NOTE: Each runtest script should be edited to run the appropriate compiler
+      and linker for your system and to point to your modeltech installation
+      for the include files.

@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vshifter
+Z1 !s100 HOb929VfJ543FECC?=zCC3
+Z2 I2=M<4f6hAVhbX6n5OAXAa2
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 dD:/intern project/New folder
+Z5 w1371199360
+Z6 8D:/intern project/New folder/Shifter.v
+Z7 FD:/intern project/New folder/Shifter.v
+L0 1
+Z8 OP;L;10.2b;57
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/intern project/New folder/Shifter.v|
+Z10 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z11 !s110 1371199633
+!i10b 1
+!s85 0
+Z12 !s108 1371199633.037000
+Z13 !s107 D:/intern project/New folder/Shifter.v|
+!s101 -O0
+vshifter_tb
+R11
+!i10b 1
+!s100 n^WZ0KkH1PY<RAk:JV^fW1
+ISec905R7<9D`ZZ]8OVGGT1
+R3
+R4
+w1371199630
+Z14 8D:/intern project/New folder/shifter_tb.v
+Z15 FD:/intern project/New folder/shifter_tb.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1371199633.224000
+!s107 D:/intern project/New folder/shifter_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|D:/intern project/New folder/shifter_tb.v|
+!s101 -O0
+R10

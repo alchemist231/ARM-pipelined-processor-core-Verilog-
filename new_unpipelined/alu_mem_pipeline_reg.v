@@ -1,0 +1,56 @@
+module alu_mem_pipeline_reg(alu_result,base_reg_content_load_post,mem_data_write,wb_address,base_register_address,
+  mem_control,wb_control,clock,alu_result_out,base_reg_content_out,mem_data_write_out,wb_address_out,
+  base_register_address_out,mem_control_out,wb_control_out);
+  
+  parameter mem_control_word_width=7;
+  parameter wb_control_word_width=2;
+  
+  input wire [31:0] alu_result,base_reg_content_load_post,mem_data_write;
+  input wire [3:0] wb_address,base_register_address;
+  input wire [mem_control_word_width-1:0] mem_control;
+  input wire [wb_control_word_width-1:0] wb_control;
+  input wire clock;
+  
+  output wire [31:0] alu_result_out,base_reg_content_out,mem_data_write_out;
+  output wire [3:0] wb_address_out,base_register_address_out;
+  output wire [mem_control_word_width-1:0] mem_control_out;
+  output wire [wb_control_word_width-1:0] wb_control_out;
+    
+  reg [31:0] alu_result_reg,base_reg_content_reg,mem_data_write_reg;
+  reg [3:0] wb_address_reg,base_register_address_reg;
+  reg [mem_control_word_width-1:0] mem_control_reg;
+  reg [wb_control_word_width-1:0] wb_control_reg;
+  
+  initial
+  begin
+    alu_result_reg=32'h0;
+    base_reg_content_reg=32'h0;
+    mem_data_write_reg=32'h0;
+    wb_address_reg=4'b0;
+    base_register_address_reg=4'b0;
+    mem_control_reg=0;
+    wb_control_reg=0;    
+  end
+  
+  assign alu_result_out=alu_result_reg,
+         base_reg_content_out=base_reg_content_reg,
+         mem_data_write_out=mem_data_write_reg,
+         wb_address_out=wb_address_reg,
+         base_register_address_out=base_register_address_reg,
+         mem_control_out=mem_control_reg,
+         wb_control_out=wb_control_reg;
+  
+  always@(posedge clock)
+  begin
+    alu_result_reg<=alu_result;
+    base_reg_content_reg<=base_reg_content_load_post;
+    mem_data_write_reg<=mem_data_write;
+    wb_address_reg<=wb_address;
+    base_register_address_reg<=base_register_address;
+    mem_control_reg<=mem_control;
+    wb_control_reg<=wb_control;
+  end
+  
+endmodule
+  
+  

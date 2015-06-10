@@ -1,0 +1,45 @@
+ 			 Copyright 1991-2013 Mentor Graphics Corporation
+						All Rights Reserved.
+
+	This document contains information that is proprietary to 
+	Mentor Graphics Corporation. The original recipient of this 
+	document may duplicate this document in whole or in part for 
+	internal business purposes only, provided that this entire 
+	notice appears in all copies. In duplicating any part of this 
+	document, the recipient agrees to make every reasonable 
+	effort to prevent the unauthorized use and distribution of the 
+	proprietary information.
+
+	Trademarks that appear in Mentor Graphics product 
+	publications that are not owned by Mentor Graphics are 
+	trademarks of their respective owners.
+
+The purpose of this VPI test example is to illustrate how to traverse
+a design and obtain various information about Verilog objects by using
+VPI functions.
+
+To run the example, bring up the simulator and type the following at the prompt:
+     do run.do
+or, to run from a shell, type the following at the shell prompt:
+     vsim -c -do run.do
+(omit the "-c" to see the GUI while running from the shell)
+
+The files are organized as follows:
+
+dff.v               A dff module marked as a cell and with a timescale
+                    different than the top-level module.
+
+expected_results    Test results that should be seen in the transcript
+                    after running vsim.
+
+prim.v              A UDP of each type (combinational and sequential).
+
+top.v               The top level module containing examples of ports, nets,
+                    registers, variables, scopes, and instances.
+
+vpi_test.c          The VPI application code.
+
+vpi_test.exports    An export file to export symbols for the IBM platform.
+
+run.do              A vsim dofile to run the simulation and display results.
+

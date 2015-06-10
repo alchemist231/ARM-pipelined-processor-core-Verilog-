@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.2b/examples
+!i10d 8192
+!i10e 25
+!i10f 100
+vALU
+Z1 !s110 1372273595
+Z2 !s100 HFIiDI7[TUzj2DESnQiYU3
+Z3 Ia9XD;Uj1IR=YE;?KRUP`]1
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dD:/intern project/combine_add_datapath
+Z6 w1371846419
+Z7 8D:/intern project/ALU.v
+Z8 FD:/intern project/ALU.v
+L0 1
+Z9 OP;L;10.2b;57
+r1
+31
+Z10 !s90 -reportprogress|300|-work|work|D:/intern project/ALU.v|
+Z11 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z12 n@a@l@u
+Z13 !s108 1372273595.490000
+Z14 !s107 D:/intern project/ALU.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcombine_data_process_datapath_tb
+Z15 !s110 1371846421
+Z16 !s100 8G^e1f7[_8cRoN<_`n]9o3
+Z17 IF:GRY]?`TW@l4;YFc7oF;0
+R4
+R5
+Z18 w1371812006
+Z19 8D:/intern project/combine_add_datapath/combined_data_process_datapath.v
+Z20 FD:/intern project/combine_add_datapath/combined_data_process_datapath.v
+L0 1
+R9
+r1
+31
+Z21 !s90 -reportprogress|300|-work|work|D:/intern project/combine_add_datapath/combined_data_process_datapath.v|
+R11
+Z22 !s108 1371846421.564000
+Z23 !s107 D:/intern project/combine_add_datapath/combined_data_process_datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontrol_tb
+Z24 !s110 1372273596
+Z25 !s100 P00_]Pl]9aI9e]QTa`I?O0
+Z26 I4[QcW[]lNWOjR?H]YgGSb1
+R4
+R5
+Z27 w1371820562
+Z28 8D:/intern project/combine_add_datapath/control_tb.v
+Z29 FD:/intern project/combine_add_datapath/control_tb.v
+L0 1
+R9
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|D:/intern project/combine_add_datapath/control_tb.v|
+R11
+!i10b 1
+!s85 0
+Z31 !s108 1372273596.285000
+Z32 !s107 D:/intern project/combine_add_datapath/control_tb.v|
+!s101 -O0
+vcontrol_unit_data_processing
+Z33 !s100 d<1AFiV;[8NmWlI?7i<>N2
+Z34 I>jk:2lFSNGX=@H8e_dHj^2
+R4
+R5
+Z35 w1371846155
+Z36 8D:/intern project/combine_add_datapath/control_data_rocessing.v
+Z37 FD:/intern project/combine_add_datapath/control_data_rocessing.v
+L0 1
+R9
+r1
+31
+Z38 !s90 -reportprogress|300|-work|work|D:/intern project/combine_add_datapath/control_data_rocessing.v|
+R11
+R24
+Z39 !s108 1372273595.989000
+Z40 !s107 D:/intern project/combine_add_datapath/control_data_rocessing.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinstruction_memory
+R1
+Z41 !s100 A2`03Tc0LPZPha7Q_3M>a0
+Z42 IkcBTfh^_EOJ3KQWMf<0?b2
+R4
+R5
+Z43 w1371845423
+Z44 8D:/intern project/instruction_memory.v
+Z45 FD:/intern project/instruction_memory.v
+L0 1
+R9
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|D:/intern project/instruction_memory.v|
+R11
+Z47 !s108 1372273595.209000
+Z48 !s107 D:/intern project/instruction_memory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpc_incrementer
+R24
+!i10b 1
+Z49 !s100 Jmde2=V><ndQC1E@b7_=?3
+Z50 IZm8KTU4C9THIKkzfkn0f70
+R4
+R5
+Z51 w1371414291
+Z52 8D:/intern project/pc_incrementer.v
+Z53 FD:/intern project/pc_incrementer.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1372273596.566000
+!s107 D:/intern project/pc_incrementer.v|
+Z54 !s90 -reportprogress|300|-work|work|D:/intern project/pc_incrementer.v|
+!s101 -O0
+R11
+vregister_32
+Z55 !s100 7G?89WO03T4WiMg^57FjT2
+Z56 I7h;gZ:z?Ki:PW3P7@jJ7N0
+R4
+R5
+Z57 w1371818412
+Z58 8D:/intern project/register/register_32.v
+Z59 FD:/intern project/register/register_32.v
+L0 1
+R9
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|D:/intern project/register/register_32.v|
+R11
+Z61 !s110 1372273594
+Z62 !s108 1372273594.304000
+Z63 !s107 D:/intern project/register/register_32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshifter_rotater
+Z64 !s100 X@Xd_NNN:;9@DQlgX`F2h1
+Z65 IcD0=fgXD2@1NKdD4m1S=G3
+R4
+R5
+Z66 w1371800190
+Z67 8D:/intern project/shift_rotate/shifter_rotater.v
+Z68 FD:/intern project/shift_rotate/shifter_rotater.v
+L0 1
+R9
+r1
+31
+Z69 !s90 -reportprogress|300|-work|work|D:/intern project/shift_rotate/shifter_rotater.v|
+R11
+R1
+Z70 !s108 1372273594.834000
+Z71 !s107 D:/intern project/shift_rotate/shifter_rotater.v|
+!i10b 1
+!s85 0
+!s101 -O0

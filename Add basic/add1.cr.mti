@@ -1,0 +1,15 @@
+{D:/intern project/Add basic/add.v} {1 {vlog -work work {D:/intern project/Add basic/add.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module add
+
+Top level modules:
+	add
+
+} {} {}} {D:/intern project/Add basic/add_tb.v} {1 {vlog -work work {D:/intern project/Add basic/add_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module add_tb
+
+Top level modules:
+	add_tb
+
+} {} {}}

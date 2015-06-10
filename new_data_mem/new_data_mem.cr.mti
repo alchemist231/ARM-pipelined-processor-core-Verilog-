@@ -1,0 +1,22 @@
+{D:/intern project/new_unpipelined/data_mem.v} {1 {vlog -work work {D:/intern project/new_unpipelined/data_mem.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} {D:/intern project/new_data_mem/new_data_mem_tb.v} {1 {vlog -work work {D:/intern project/new_data_mem/new_data_mem_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module new_data_mem_tb
+
+Top level modules:
+	new_data_mem_tb
+
+} {} {}} {D:/intern project/new_data_mem/control_fsm_mem.v} {1 {vlog -work work {D:/intern project/new_data_mem/control_fsm_mem.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module control_fsm_mem
+
+Top level modules:
+	control_fsm_mem
+
+} {} {}}

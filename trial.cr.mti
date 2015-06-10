@@ -1,0 +1,15 @@
+{D:/intern project/top.v} {1 {vlog -work work {D:/intern project/top.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module and1
+
+Top level modules:
+	and1
+
+} {} {}} {D:/intern project/and_tb.v} {1 {vlog -work work {D:/intern project/and_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module and_tb
+
+Top level modules:
+	and_tb
+
+} {} {}}

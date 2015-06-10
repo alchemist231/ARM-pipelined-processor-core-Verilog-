@@ -1,0 +1,8 @@
+{D:/intern project/New folder/shifter_tb.v} {1 {vlog -work work {D:/intern project/New folder/shifter_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.2b Compiler 2013.05 May 17 2013
+-- Compiling module shifter_tb
+
+Top level modules:
+	shifter_tb
+
+} {} {}}
